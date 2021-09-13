@@ -1,2 +1,2 @@
 ## RESOURCES
-and today I am finaling having some time to restart the ROS tutorials and lectures.
+no more workless days and laziness
