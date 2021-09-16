@@ -1,2 +1,2 @@
 ## RESOURCES
-no more workless days and laziness
+come lets get this bread!
