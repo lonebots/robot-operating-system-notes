@@ -1,4 +1,4 @@
 ## RESOURCES
 
-This part contains the basic resources for beginers to learn ROS.
+This part contains the basic resources for beginers to learn 
 
