@@ -1,0 +1,163 @@
+[0.569s] Invoking command in '/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set': AMENT_PREFIX_PATH=/home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclcpp_wait_set:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclcpp_wait_set LD_LIBRARY_PATH=/home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclcpp_wait_set/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.574s] UpdateCTestConfiguration  from :/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.574s] Parse Config file:/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.574s]    Site: Legion
+[0.575s]    Build name: (empty)
+[0.575s]  Add coverage exclude regular expressions.
+[0.575s] Create new tag: 20220916-0522 - Experimental
+[0.575s] UpdateCTestConfiguration  from :/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.575s] Parse Config file:/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.575s] Test project /home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set
+[0.575s] Constructing a list of tests
+[0.575s] Done constructing a list of tests
+[0.575s] Updating test list for fixtures
+[0.575s] Added 0 tests to meet fixture requirements
+[0.575s] Checking test dependency graph...
+[0.576s] Checking test dependency graph end
+[0.576s] test 1
+[0.576s]     Start 1: copyright
+[0.576s] 
+[0.576s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml"
+[0.576s] 1: Test timeout computed to be: 200
+[0.634s] 1: -- run_test.py: invoking following command in '/home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set':
+[0.634s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml
+[1.299s] 1: No problems found, checked 15 files
+[1.313s] 1: -- run_test.py: return code 0
+[1.313s] 1: -- run_test.py: verify result file '/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml'
+[1.330s] 1/6 Test #1: copyright ........................   Passed    0.75 sec
+[1.330s] test 2
+[1.330s]     Start 2: cppcheck
+[1.330s] 
+[1.330s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--include_dirs" "/home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/include"
+[1.330s] 2: Test timeout computed to be: 300
+[1.406s] 2: -- run_test.py: invoking following command in '/home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set':
+[1.406s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml --include_dirs /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/include
+[1.502s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[1.521s] 2: -- run_test.py: return code 0
+[1.522s] 2: -- run_test.py: verify result file '/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml'
+[1.535s] 2/6 Test #2: cppcheck .........................   Passed    0.21 sec
+[1.535s] test 3
+[1.535s]     Start 3: cpplint
+[1.536s] 
+[1.536s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml"
+[1.536s] 3: Test timeout computed to be: 120
+[1.623s] 3: -- run_test.py: invoking following command in '/home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set':
+[1.623s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml
+[2.149s] 3: Using '--root=/home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/include' argument
+[2.149s] 3: 
+[2.149s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/listener.hpp
+[2.149s] 3: 
+[2.149s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/random_listener.hpp
+[2.149s] 3: 
+[2.149s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/random_talker.hpp
+[2.149s] 3: 
+[2.150s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/talker.hpp
+[2.150s] 3: 
+[2.150s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/visibility.h
+[2.150s] 3: 
+[2.150s] 3: Using '--root=/home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/src' argument
+[2.150s] 3: 
+[2.150s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/src/executor_random_order.cpp
+[2.150s] 3: 
+[2.151s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/src/listener.cpp
+[2.151s] 3: 
+[2.151s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/src/static_wait_set.cpp
+[2.151s] 3: 
+[2.151s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/src/talker.cpp
+[2.151s] 3: 
+[2.151s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/src/thread_safe_wait_set.cpp
+[2.151s] 3: 
+[2.151s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set.cpp
+[2.151s] 3: 
+[2.152s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_composed.cpp
+[2.152s] 3: 
+[2.152s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_random_order.cpp
+[2.152s] 3: 
+[2.152s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_topics_and_timer.cpp
+[2.152s] 3: 
+[2.152s] 3: Done processing /home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_topics_with_different_rates.cpp
+[2.152s] 3: 
+[2.152s] 3: No problems found
+[2.167s] 3: -- run_test.py: return code 0
+[2.167s] 3: -- run_test.py: verify result file '/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml'
+[2.176s] 3/6 Test #3: cpplint ..........................   Passed    0.64 sec
+[2.176s] test 4
+[2.176s]     Start 4: lint_cmake
+[2.176s] 
+[2.176s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml"
+[2.176s] 4: Test timeout computed to be: 60
+[2.225s] 4: -- run_test.py: invoking following command in '/home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set':
+[2.225s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml
+[2.298s] 4: 
+[2.298s] 4: No problems found
+[2.320s] 4: -- run_test.py: return code 0
+[2.320s] 4: -- run_test.py: verify result file '/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml'
+[2.328s] 4/6 Test #4: lint_cmake .......................   Passed    0.15 sec
+[2.328s] test 5
+[2.328s]     Start 5: uncrustify
+[2.328s] 
+[2.328s] 5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml"
+[2.328s] 5: Test timeout computed to be: 60
+[2.390s] 5: -- run_test.py: invoking following command in '/home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set':
+[2.390s] 5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml
+[2.476s] 5: No code style divergence in file 'include/wait_set/listener.hpp'
+[2.476s] 5: 
+[2.476s] 5: No code style divergence in file 'include/wait_set/random_listener.hpp'
+[2.477s] 5: 
+[2.477s] 5: No code style divergence in file 'include/wait_set/random_talker.hpp'
+[2.477s] 5: 
+[2.477s] 5: No code style divergence in file 'include/wait_set/talker.hpp'
+[2.477s] 5: 
+[2.477s] 5: No code style divergence in file 'include/wait_set/visibility.h'
+[2.477s] 5: 
+[2.477s] 5: No code style divergence in file 'src/executor_random_order.cpp'
+[2.477s] 5: 
+[2.477s] 5: No code style divergence in file 'src/listener.cpp'
+[2.478s] 5: 
+[2.478s] 5: No code style divergence in file 'src/static_wait_set.cpp'
+[2.478s] 5: 
+[2.478s] 5: No code style divergence in file 'src/talker.cpp'
+[2.478s] 5: 
+[2.478s] 5: No code style divergence in file 'src/thread_safe_wait_set.cpp'
+[2.478s] 5: 
+[2.478s] 5: No code style divergence in file 'src/wait_set.cpp'
+[2.478s] 5: 
+[2.478s] 5: No code style divergence in file 'src/wait_set_composed.cpp'
+[2.478s] 5: 
+[2.478s] 5: No code style divergence in file 'src/wait_set_random_order.cpp'
+[2.479s] 5: 
+[2.479s] 5: No code style divergence in file 'src/wait_set_topics_and_timer.cpp'
+[2.479s] 5: 
+[2.479s] 5: No code style divergence in file 'src/wait_set_topics_with_different_rates.cpp'
+[2.479s] 5: 
+[2.479s] 5: No problems found
+[2.486s] 5: -- run_test.py: return code 0
+[2.486s] 5: -- run_test.py: verify result file '/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml'
+[2.498s] 5/6 Test #5: uncrustify .......................   Passed    0.17 sec
+[2.498s] test 6
+[2.498s]     Start 6: xmllint
+[2.499s] 
+[2.499s] 6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml"
+[2.499s] 6: Test timeout computed to be: 60
+[2.616s] 6: -- run_test.py: invoking following command in '/home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set':
+[2.617s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml
+[3.236s] 6: File 'package.xml' is valid
+[3.236s] 6: 
+[3.236s] 6: No problems found
+[3.247s] 6: -- run_test.py: return code 0
+[3.247s] 6: -- run_test.py: verify result file '/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml'
+[3.258s] 6/6 Test #6: xmllint ..........................   Passed    0.76 sec
+[3.258s] 
+[3.258s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[3.258s] 
+[3.258s] Label Time Summary:
+[3.258s] copyright     =   0.75 sec*proc (1 test)
+[3.259s] cppcheck      =   0.21 sec*proc (1 test)
+[3.259s] cpplint       =   0.64 sec*proc (1 test)
+[3.259s] lint_cmake    =   0.15 sec*proc (1 test)
+[3.259s] linter        =   2.68 sec*proc (6 tests)
+[3.259s] uncrustify    =   0.17 sec*proc (1 test)
+[3.259s] xmllint       =   0.76 sec*proc (1 test)
+[3.259s] 
+[3.259s] Total Test time (real) =   2.68 sec
+[3.262s] Invoked command in '/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set' returned '0': AMENT_PREFIX_PATH=/home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclcpp_wait_set:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclcpp_wait_set LD_LIBRARY_PATH=/home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclcpp_wait_set/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

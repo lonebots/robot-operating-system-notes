@@ -1,0 +1,15 @@
+
+[33m=============================== warnings summary ===============================[0m
+launch_testing_examples/check_msgs_launch_test.py: 2 warnings
+launch_testing_examples/check_multiple_nodes_launch_test.py: 2 warnings
+launch_testing_examples/check_node_launch_test.py: 2 warnings
+launch_testing_examples/hello_world_launch_test.py: 2 warnings
+launch_testing_examples/record_rosbag_launch_test.py: 2 warnings
+launch_testing_examples/set_param_launch_test.py: 2 warnings
+  Warning: There is no current event loop
+
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
