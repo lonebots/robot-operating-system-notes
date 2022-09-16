@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/jishnu/project/ros2-project/projects/ros2_ws/src/examples/rclcpp/wait_set':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml
+
+No problems found, checked 15 files
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml'

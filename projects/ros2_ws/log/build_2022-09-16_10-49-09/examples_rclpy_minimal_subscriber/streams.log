@@ -1,0 +1,34 @@
+[1.714s] Invoking command in '/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber --editable --build-directory /home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data --install-dir /home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber
+[2.146s] running develop
+[2.147s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.147s]   warnings.warn(
+[2.149s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.149s]   warnings.warn(
+[2.252s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[2.252s]   warnings.warn(
+[2.252s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[2.252s]   warnings.warn(
+[2.418s] running egg_info
+[2.418s] creating examples_rclpy_minimal_subscriber.egg-info
+[2.418s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[2.419s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[2.419s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[2.419s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[2.420s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[2.420s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.424s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.425s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.428s] running build_ext
+[2.428s] Creating /home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[2.430s] Installing subscriber_lambda script to /home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.430s] Installing subscriber_member_function script to /home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.456s] Installing subscriber_old_school script to /home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.456s] 
+[2.456s] Installed /home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclpy_minimal_subscriber
+[2.457s] running install_data
+[2.457s] creating /home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[2.457s] creating /home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[2.457s] creating /home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[2.457s] copying resource/examples_rclpy_minimal_subscriber -> /home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[2.457s] copying package.xml -> /home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[2.527s] Invoked command in '/home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber --editable --build-directory /home/jishnu/project/ros2-project/projects/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data --install-dir /home/jishnu/project/ros2-project/projects/ros2_ws/install/examples_rclpy_minimal_subscriber
