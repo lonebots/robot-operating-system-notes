@@ -3,9 +3,9 @@
 <package format="3">
   <name>cpp_srvcli</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>cpp client server implementation</description>
   <maintainer email="jishnusurajila@gmail.com">jishnu</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
