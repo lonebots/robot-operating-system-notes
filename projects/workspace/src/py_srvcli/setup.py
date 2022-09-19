@@ -19,6 +19,9 @@ setup(
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [],
+        'console_scripts': [
+            'server = py_srvcli.service_member_function:main',
+            'client = py_srvcli.client_member_function:main',
+        ],
     },
 )
