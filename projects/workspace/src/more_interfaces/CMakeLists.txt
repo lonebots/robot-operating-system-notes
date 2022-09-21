@@ -36,4 +36,11 @@ ament_targe_dependencies(publish_address_book rclcpp)
 # set target
 install(TARGETS publish_address_book
 DESTINATION lib/${PROJECT_NAME})
+
+# link against the interface
+rosidl_get_typesupport_target(cpp_typesupport_target
+  ${PROJECT_NAME} "rosidl_typesupport_cpp")
+
+target_link_libraries(publish_address_book "${cpp_typesupport_target}")
+
 ament_package()
