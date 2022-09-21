@@ -10,6 +10,8 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 ament_export_dependencies(rosidl_default_runtime)
 
+find_package(rclcpp REQUIRED)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED
   set(ament_cmake_copyright_FOUND TRUE)
@@ -24,4 +26,14 @@ set(msg_files
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
 )
+
+# adding executables pointing to the new program file
+add_executable(publish_address_book src/publish_address_book.cpp)
+
+# amending target dependencies
+ament_targe_dependencies(publish_address_book rclcpp)
+
+# set target
+install(TARGETS publish_address_book
+DESTINATION lib/${PROJECT_NAME})
 ament_package()
