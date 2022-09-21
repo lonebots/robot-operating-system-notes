@@ -13,7 +13,7 @@ ament_export_dependencies(rosidl_default_runtime)
 find_package(rclcpp REQUIRED)
 
 if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED
+  find_package(ament_lint_auto REQUIRED)
   set(ament_cmake_copyright_FOUND TRUE)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
@@ -31,7 +31,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 add_executable(publish_address_book src/publish_address_book.cpp)
 
 # amending target dependencies
-ament_targe_dependencies(publish_address_book rclcpp)
+ament_target_dependencies(publish_address_book rclcpp)
 
 # set target
 install(TARGETS publish_address_book
