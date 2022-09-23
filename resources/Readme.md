@@ -1,5 +1,5 @@
 ## RESOURCES
-### content update 
+### content 
 
 
 
