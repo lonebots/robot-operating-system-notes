@@ -17,10 +17,10 @@ class MinimalParam(rclpy.node.Node):
         self.timer = self.create_timer(timer_period, self.timer_callback)
 
         from rcl_interfaces.msg import ParameterDescriptor
-        my_parameter_descriptor = ParameterDescriptor(
-            description='This parameter is mine!')
+        my_parameter_descriptor = ParameterDescriptor(description='This parameter is mine!')
 
-        self.declare_parameter('my_parameter', 'world',
+        self.declare_parameter('my_parameter',
+                               'world',
                                my_parameter_descriptor)
 
     def timer_callback(self):
