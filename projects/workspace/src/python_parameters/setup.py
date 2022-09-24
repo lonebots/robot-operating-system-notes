@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'param_talker = python_parameters:python_parameters_node:main',
         ],
     },
 )
