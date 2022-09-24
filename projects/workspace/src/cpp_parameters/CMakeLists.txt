@@ -24,4 +24,10 @@ parameter_node
 DESTINATION lib/${PROJECT_NAME}
 )
 
+# setup launch file
+install(
+  DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
 ament_package()
