@@ -7,8 +7,8 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
-ament_export_dependencies(rosidl_default_runtime)
+find_package(rosidl_default_generators REQUIRED) # rosidl_default_generators
+ament_export_dependencies(rosidl_default_runtime) # amend_export_dependencies
 
 find_package(rclcpp REQUIRED)
 
@@ -20,27 +20,40 @@ if(BUILD_TESTING)
 endif()
 
 set(msg_files
-  "msg/AddressBook.msg"
+  #"msg/AddressBook.msg"
+  "msg/MotorDriver.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
 )
 
-# adding executables pointing to the new program file
-add_executable(publish_address_book src/publish_address_book.cpp)
+# # adding executables pointing to the new program file
+# add_executable(publish_address_book src/publish_address_book.cpp)
 
-# amending target dependencies
-ament_target_dependencies(publish_address_book rclcpp)
+# # amending target dependencies
+# ament_target_dependencies(publish_address_book rclcpp)
 
-# set target
-install(TARGETS publish_address_book
-DESTINATION lib/${PROJECT_NAME})
+# # set target
+# install(TARGETS publish_address_book
+# DESTINATION lib/${PROJECT_NAME})
 
-# link against the interface
+# # link against the interface
+# rosidl_get_typesupport_target(cpp_typesupport_target
+#   ${PROJECT_NAME} "rosidl_typesupport_cpp")
+
+# target_link_libraries(publish_address_book "${cpp_typesupport_target}")
+
+
+
+# add executable,ament_target_dependencies,set target,link interface
+add_executable(publish_motor_driver src/publish_motor_driver.cpp)
+ament_target_dependencies(publish_motor_driver rclcpp)
+install(TARGETS publish_motor_driver
+DESTINATION   lib/${PROJECT_NAME})
 rosidl_get_typesupport_target(cpp_typesupport_target
-  ${PROJECT_NAME} "rosidl_typesupport_cpp")
+ ${PROJECT_NAME} "rosidl_typesupport_cpp")
+target_link_libraries(publish_motor_driver "${cpp_typesupport_target}")
 
-target_link_libraries(publish_address_book "${cpp_typesupport_target}")
 
 ament_package()
