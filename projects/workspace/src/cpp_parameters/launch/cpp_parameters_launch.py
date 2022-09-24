@@ -10,6 +10,6 @@ def generate_launch_description():
              output="screen",
              emulate_tty=True,
              parameters=[{
-                 "my_parameter": "earth"
+                 "my_parameter": "how are you?"
              }])
     ])
