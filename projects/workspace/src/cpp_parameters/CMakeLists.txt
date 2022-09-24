@@ -16,4 +16,12 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+# setup parameter node
+add_executable(parameter_node "src/cpp_parameters_node.cpp")
+ament_target_dependencies(parameter_node "rclcpp")
+install(TARGETS 
+parameter_node
+DESTINATION lib/${PROJECT_NAME}
+)
+
 ament_package()
