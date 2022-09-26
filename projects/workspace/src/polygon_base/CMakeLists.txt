@@ -9,6 +9,27 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(pluginlib REQUIRED)
 
+# add library --> export the plugin
+add_library(polygon_plugins src/polygon_plugins.cpp)
+target_include_directories(polygon_plugins PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+ament_target_dependencies(
+  polygon_plugins
+  polygon_base
+  pluginlib
+)
+
+pluginlib_export_plugin_description_file(polygon_base plugins.xml)
+
+install(
+  TARGETS polygon_plugins
+  EXPORT export_${PROJECT_NAME}
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION bin
+)
+
 add_executable(area_node src/area_node.cpp)
 target_include_directories(area_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -40,3 +61,10 @@ ament_export_include_directories(
 )
 
 ament_package()
+
+ament_export_libraries(
+  polygon_plugins
+)
+ament_export_targets(
+  export_${PROJECT_NAME}
+)
