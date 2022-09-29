@@ -14,6 +14,7 @@ add_library(polygon_plugins src/polygon_plugins.cpp)
 target_include_directories(polygon_plugins PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
+  
 ament_target_dependencies(
   polygon_plugins
   polygon_base
