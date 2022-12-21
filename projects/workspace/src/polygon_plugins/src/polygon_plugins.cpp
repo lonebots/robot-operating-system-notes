@@ -41,9 +41,25 @@ namespace polygon_plugins
     protected:
       double side_length_;
   };
+
+  class Circle : public polygon_base::RegularPolygon
+  {
+    public:
+      void initialize(double side_length) override{
+        side_length_ = side_length;
+      }
+
+      double area() override{
+        return 3.14 * side_length_ * side_length_;
+      }
+
+      protected:
+        double side_length_;
+  };
 }
 
 #include <pluginlib/class_list_macros.hpp>
 
 PLUGINLIB_EXPORT_CLASS(polygon_plugins::Square, polygon_base::RegularPolygon)
 PLUGINLIB_EXPORT_CLASS(polygon_plugins::Triangle, polygon_base::RegularPolygon)
+PLUGINLIB_EXPORT_CLASS(polygon_plugins::Circle, polygon_base::RegularPolygon)
