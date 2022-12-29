@@ -1,0 +1,22 @@
+[0.561s] Invoking command in '/home/jishnu/project/ros2-project/projects/ws_launch/src/py_launch_example': PYTHONPATH=/home/jishnu/project/ros2-project/projects/ws_launch/build/py_launch_example/prefix_override:/home/jishnu/project/ros2-project/projects/ws_launch/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/jishnu/project/ros2-project/projects/ws_launch/build/py_launch_example/build install --record /home/jishnu/project/ros2-project/projects/ws_launch/build/py_launch_example/install.log --single-version-externally-managed
+[0.771s] running egg_info
+[0.772s] writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO
+[0.772s] writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt
+[0.772s] writing entry points to ../../build/py_launch_example/py_launch_example.egg-info/entry_points.txt
+[0.772s] writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt
+[0.772s] writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt
+[0.774s] reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.774s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.774s] running build
+[0.774s] running build_py
+[0.774s] running install
+[0.775s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.775s]   warnings.warn(
+[0.775s] running install_lib
+[0.776s] running install_data
+[0.776s] running install_egg_info
+[0.777s] removing '/home/jishnu/project/ros2-project/projects/ws_launch/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info' (and everything under it)
+[0.777s] Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/jishnu/project/ros2-project/projects/ws_launch/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info
+[0.778s] running install_scripts
+[0.794s] writing list of installed files to '/home/jishnu/project/ros2-project/projects/ws_launch/build/py_launch_example/install.log'
+[0.816s] Invoked command in '/home/jishnu/project/ros2-project/projects/ws_launch/src/py_launch_example' returned '0': PYTHONPATH=/home/jishnu/project/ros2-project/projects/ws_launch/build/py_launch_example/prefix_override:/home/jishnu/project/ros2-project/projects/ws_launch/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/jishnu/project/ros2-project/projects/ws_launch/build/py_launch_example/build install --record /home/jishnu/project/ros2-project/projects/ws_launch/build/py_launch_example/install.log --single-version-externally-managed
