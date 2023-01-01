@@ -1,3 +1,3 @@
 import sys
 sys.real_prefix = sys.prefix
-sys.prefix = sys.exec_prefix = '/home/jishnu/project/ros2-project/projects/ws_launch/install/py_launch_example'
+sys.prefix = sys.exec_prefix = '/home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/install/py_launch_example'

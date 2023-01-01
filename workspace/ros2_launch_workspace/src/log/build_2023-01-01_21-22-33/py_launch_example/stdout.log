@@ -1,0 +1,16 @@
+running egg_info
+creating ../build/py_launch_example/UNKNOWN.egg-info
+writing ../build/py_launch_example/UNKNOWN.egg-info/PKG-INFO
+writing dependency_links to ../build/py_launch_example/UNKNOWN.egg-info/dependency_links.txt
+writing top-level names to ../build/py_launch_example/UNKNOWN.egg-info/top_level.txt
+writing manifest file '../build/py_launch_example/UNKNOWN.egg-info/SOURCES.txt'
+reading manifest file '../build/py_launch_example/UNKNOWN.egg-info/SOURCES.txt'
+writing manifest file '../build/py_launch_example/UNKNOWN.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+copying launch/my_script_launch.py -> /home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/src/install/py_launch_example/share/py_launch_example
+running install_egg_info
+Copying ../build/py_launch_example/UNKNOWN.egg-info to /home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/src/install/py_launch_example/lib/python3.10/site-packages/UNKNOWN-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/src/build/py_launch_example/install.log'
