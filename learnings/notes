@@ -1,0 +1,27 @@
+sourcing file
+	source /opt/ros/humble/setup.bash
+
+start a simple talker ( cpp node )
+	ros2 run demo_nodes_cpp talker
+	
+start a simple listener ( cpp node )
+	ros2 run demo_nodes_cpp listener
+	
+what is colcon ? 
+	- it is build tool 
+	- 
+	
+install colcon - for building the ros package 
+	sudo apt install python3-colcon-common-extensions
+
+colcon autocomplete
+	cd /usr/share/colcon_argcomplete/hook/
+	source colcon-argcomplete.bash
+	
+colcon build 
+	| ros2_ws/
+		|--> src/
+		|--> install/
+		|--> build/ 
+		
+ament --> build system
