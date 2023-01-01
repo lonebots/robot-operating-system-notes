@@ -1,0 +1,18 @@
+[0.697s] Invoking command in '/home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/src/py_launch_example': PYTHONPATH=/home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/build/py_launch_example/prefix_override:/home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/build/py_launch_example/build install --record /home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/build/py_launch_example/install.log --single-version-externally-managed
+[0.934s] running egg_info
+[0.935s] writing ../../build/py_launch_example/UNKNOWN.egg-info/PKG-INFO
+[0.936s] writing dependency_links to ../../build/py_launch_example/UNKNOWN.egg-info/dependency_links.txt
+[0.936s] writing top-level names to ../../build/py_launch_example/UNKNOWN.egg-info/top_level.txt
+[0.937s] reading manifest file '../../build/py_launch_example/UNKNOWN.egg-info/SOURCES.txt'
+[0.938s] writing manifest file '../../build/py_launch_example/UNKNOWN.egg-info/SOURCES.txt'
+[0.938s] running build
+[0.938s] running install
+[0.938s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.938s]   warnings.warn(
+[0.938s] running install_data
+[0.939s] running install_egg_info
+[0.941s] removing '/home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/install/py_launch_example/lib/python3.10/site-packages/UNKNOWN-0.0.0-py3.10.egg-info' (and everything under it)
+[0.941s] Copying ../../build/py_launch_example/UNKNOWN.egg-info to /home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/install/py_launch_example/lib/python3.10/site-packages/UNKNOWN-0.0.0-py3.10.egg-info
+[0.941s] running install_scripts
+[0.958s] writing list of installed files to '/home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/build/py_launch_example/install.log'
+[1.003s] Invoked command in '/home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/src/py_launch_example' returned '0': PYTHONPATH=/home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/build/py_launch_example/prefix_override:/home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/build/py_launch_example/build install --record /home/jishnu/robotics/ros-git/workspace/ros2_launch_workspace/build/py_launch_example/install.log --single-version-externally-managed
