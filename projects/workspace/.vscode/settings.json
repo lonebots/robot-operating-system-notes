@@ -1,7 +1,0 @@
-{
-    "cmake.sourceDirectory": "${workspaceFolder}/src/cpp_pubsub",
-    "python.formatting.provider": "yapf",
-    "githubPullRequests.ignoredPullRequestBranches": [
-        "main"
-    ]
-}
