@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000740] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000783] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000810] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000833] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000856] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000877] (-) JobUnselected: {'identifier': 'ros_test_package'}
+[0.000898] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000923] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.000965] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.014763] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.040790] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.041388] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'jishnu'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jishnu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/108/usr/share/code/code'), ('MANAGERPID', '2156'), ('SYSTEMD_EXEC_PID', '2601'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '38981'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jishnu'), ('JOURNAL_STREAM', '8:39538'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jishnu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jishnu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Legion:@/tmp/.ICE-unix/2295,unix/Legion:/tmp/.ICE-unix/2295'), ('INVOCATION_ID', '242916a59f5b4174affc6ec2ffb354b1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S3QUS1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2642229cd5.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/108/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099352] (-) TimerEvent: {}
+[0.162097] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199458] (-) TimerEvent: {}
+[0.261128] (more_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.299547] (-) TimerEvent: {}
+[0.399875] (-) TimerEvent: {}
+[0.414332] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.423317] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.433165] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.486839] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499966] (-) TimerEvent: {}
+[0.531440] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600067] (-) TimerEvent: {}
+[0.655351] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.657920] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700148] (-) TimerEvent: {}
+[0.800388] (-) TimerEvent: {}
+[0.821544] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.900492] (-) TimerEvent: {}
+[1.000759] (-) TimerEvent: {}
+[1.057706] (more_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.100848] (-) TimerEvent: {}
+[1.201097] (-) TimerEvent: {}
+[1.301353] (-) TimerEvent: {}
+[1.359755] (more_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[1.360012] (more_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[1.360119] (more_interfaces) StderrLine: {'line': b'  more_interfaces --arguments-file\n'}
+[1.360225] (more_interfaces) StderrLine: {'line': b'  /home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces/rosidl_adapter__arguments__more_interfaces.json\n'}
+[1.360322] (more_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[1.360409] (more_interfaces) StderrLine: {'line': b'  /home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces/rosidl_adapter/more_interfaces\n'}
+[1.360497] (more_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[1.360580] (more_interfaces) StderrLine: {'line': b'  /home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces/rosidl_adapter/more_interfaces.idls)\n'}
+[1.360678] (more_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.360774] (more_interfaces) StderrLine: {'line': b'\n'}
+[1.360861] (more_interfaces) StderrLine: {'line': b"  Error processing 'unint8 rot_ang' of 'more_interfaces/MotorDriver':\n"}
+[1.360947] (more_interfaces) StderrLine: {'line': b"  ''unint8' is an invalid message name.  It should have the pattern\n"}
+[1.361031] (more_interfaces) StderrLine: {'line': b"  '^[A-Z][A-Za-z0-9]*$''\n"}
+[1.361115] (more_interfaces) StderrLine: {'line': b'\n'}
+[1.361199] (more_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.361281] (more_interfaces) StderrLine: {'line': b'\n'}
+[1.361365] (more_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[1.361449] (more_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.361534] (more_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[1.361618] (more_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.361700] (more_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.361785] (more_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.361867] (more_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.361952] (more_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.362037] (more_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.362120] (more_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.362204] (more_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.362287] (more_interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.362370] (more_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string\n'}
+[1.362453] (more_interfaces) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[1.362537] (more_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__\n'}
+[1.362618] (more_interfaces) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[1.362700] (more_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[1.362783] (more_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.362866] (more_interfaces) StderrLine: {'line': b'\n'}
+[1.362948] (more_interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'unint8' is an invalid message\n"}
+[1.363030] (more_interfaces) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.363113] (more_interfaces) StderrLine: {'line': b'\n'}
+[1.363195] (more_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.363276] (more_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.363365] (more_interfaces) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[1.363452] (more_interfaces) StderrLine: {'line': b'\n'}
+[1.363534] (more_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.363615] (more_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.363705] (more_interfaces) StdoutLine: {'line': b'See also "/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.368032] (more_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:788: cmake_check_build_system] Error 1\n'}
+[1.370042] (more_interfaces) CommandEnded: {'returncode': 2}
+[1.401468] (-) TimerEvent: {}
+[1.450974] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 2}
+[1.461596] (-) EventReactorShutdown: {}

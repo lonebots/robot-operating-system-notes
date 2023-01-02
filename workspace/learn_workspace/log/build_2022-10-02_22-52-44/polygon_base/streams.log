@@ -1,0 +1,13 @@
+[0.585s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jishnu/project/ros2-project/projects/workspace/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/jishnu/project/ros2-project/projects/workspace/install/polygon_base
+[2.139s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.140s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.141s] -- Configuring incomplete, errors occurred!
+[2.141s] See also "/home/jishnu/project/ros2-project/projects/workspace/build/polygon_base/CMakeFiles/CMakeOutput.log".
+[2.142s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[2.143s]   ament_target_dependencies() the passed package name 'polygon_base' was not
+[2.143s]   found before
+[2.143s] Call Stack (most recent call first):
+[2.144s]   CMakeLists.txt:18 (ament_target_dependencies)
+[2.144s] 
+[2.145s] [0m
+[2.155s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/polygon_base' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jishnu/project/ros2-project/projects/workspace/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/jishnu/project/ros2-project/projects/workspace/install/polygon_base

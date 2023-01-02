@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/parameter_node.dir/src/cpp_parameters_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable parameter_node[0m
+[100%] Built target parameter_node

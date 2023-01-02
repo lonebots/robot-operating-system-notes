@@ -1,0 +1,63 @@
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:7:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kclass[m[K’
+    7 | using namespace std::chrono_literals
+      |                                     [01;31m[K^[m[K
+      |                                     [32m[K;[m[K
+    8 | 
+    9 |     [32m[Kclass[m[K MotorDriverPublisher : public rclcpp::Node
+      |     [32m[K~~~~~[m[K                            
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:35:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmore_interface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmore_interfaces[m[K’?
+   35 |     rclcpp::Publisher<[01;31m[Kmore_interface[m[K::msg::MotorDriver>::SharedPtr motor_driver_publisher_;
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                       [32m[Kmore_interfaces[m[K
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:35:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |     rclcpp::Publisher<more_interface::msg::MotorDriver[01;31m[K>[m[K::SharedPtr motor_driver_publisher_;
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:35:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   35 |     rclcpp::Publisher<more_interface::msg::MotorDriver>::[01;31m[KSharedPtr[m[K motor_driver_publisher_;
+      |                                                          [01;31m[K^~~~~~~~~[m[K
+      |                                                                   [32m[K;[m[K
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:35:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_driver_publisher_[m[K’ does not name a type; did you mean ‘[01m[KMotorDriverPublisher[m[K’?
+   35 |     rclcpp::Publisher<more_interface::msg::MotorDriver>::SharedPtr [01;31m[Kmotor_driver_publisher_[m[K;
+      |                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                    [32m[KMotorDriverPublisher[m[K
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:37:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   37 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:[m[K In constructor ‘[01m[KMotorDriverPublisher::MotorDriverPublisher()[m[K’:
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_driver_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KMotorDriverPublisher[m[K’?
+   15 |         [01;31m[Kmotor_driver_publisher_[m[K =
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[KMotorDriverPublisher[m[K
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:16:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmore_interface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmore_interfaces[m[K’?
+   16 |             this->create_publisher<[01;31m[Kmore_interface[m[K::msg::MotorDriver>("motor_driver", 10);
+      |                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                    [32m[Kmore_interfaces[m[K
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:16:19:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   16 |             this->[01;31m[Kcreate_publisher<more_interface::msg::MotorDriver>[m[K("motor_driver", 10);
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:16:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMotorDriverPublisher::create_publisher<<expression error> >(const char [13], int)[m[K’
+   16 |             [01;31m[Kthis->create_publisher<more_interface::msg::MotorDriver>("motor_driver", 10)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:16:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |             [01;31m[Kthis->create_publisher<more_interface::msg::MotorDriver>("motor_driver", 10)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:[m[K In lambda function:
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:20:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmore_interface[m[K’ is not a class, namespace, or enumeration
+   20 |             auto message = [01;31m[Kmore_interface[m[K::msg::MotorDriver();
+      |                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:29:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MotorDriverPublisher[m[K’ has no member named ‘[01m[Kmotor_driver_publisher_[m[K’; did you mean ‘[01m[KMotorDriverPublisher[m[K’?
+   29 |             this->[01;31m[Kmotor_driver_publisher_[m[K->publish(message);
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                   [32m[KMotorDriverPublisher[m[K
+gmake[2]: *** [CMakeFiles/publish_motor_driver.dir/build.make:76: CMakeFiles/publish_motor_driver.dir/src/publish_motor_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publish_motor_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,43 @@
+[0.475s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub': PYTHONPATH=/home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jishnu/project/ros2-project/projects/workspace/build/py_pubsub/build install --prefix /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub --record /home/jishnu/project/ros2-project/projects/workspace/build/py_pubsub/install.log --single-version-externally-managed
+[0.687s] running egg_info
+[0.688s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.688s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.688s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.688s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.689s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.689s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.689s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.690s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.691s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.691s] running build
+[0.691s] running build_py
+[0.691s] creating /home/jishnu/project/ros2-project/projects/workspace/build/py_pubsub/build
+[0.691s] creating /home/jishnu/project/ros2-project/projects/workspace/build/py_pubsub/build/lib
+[0.691s] creating /home/jishnu/project/ros2-project/projects/workspace/build/py_pubsub/build/lib/py_pubsub
+[0.691s] copying py_pubsub/publisher_member_function.py -> /home/jishnu/project/ros2-project/projects/workspace/build/py_pubsub/build/lib/py_pubsub
+[0.691s] copying py_pubsub/__init__.py -> /home/jishnu/project/ros2-project/projects/workspace/build/py_pubsub/build/lib/py_pubsub
+[0.691s] copying py_pubsub/subscriber_member_function.py -> /home/jishnu/project/ros2-project/projects/workspace/build/py_pubsub/build/lib/py_pubsub
+[0.692s] running install
+[0.692s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.692s]   warnings.warn(
+[0.692s] running install_lib
+[0.692s] creating /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.692s] copying /home/jishnu/project/ros2-project/projects/workspace/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.693s] copying /home/jishnu/project/ros2-project/projects/workspace/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.693s] copying /home/jishnu/project/ros2-project/projects/workspace/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.693s] byte-compiling /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.694s] byte-compiling /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[0.694s] byte-compiling /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.694s] running install_data
+[0.695s] creating /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/share/ament_index
+[0.695s] creating /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/share/ament_index/resource_index
+[0.695s] creating /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/share/ament_index/resource_index/packages
+[0.695s] copying resource/py_pubsub -> /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/share/ament_index/resource_index/packages
+[0.695s] copying package.xml -> /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/share/py_pubsub
+[0.696s] running install_egg_info
+[0.697s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.697s] running install_scripts
+[0.718s] Installing listener_py script to /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/lib/py_pubsub
+[0.718s] Installing talker_py script to /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/lib/py_pubsub
+[0.718s] writing list of installed files to '/home/jishnu/project/ros2-project/projects/workspace/build/py_pubsub/install.log'
+[0.737s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub' returned '0': PYTHONPATH=/home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jishnu/project/ros2-project/projects/workspace/build/py_pubsub/build install --prefix /home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub --record /home/jishnu/project/ros2-project/projects/workspace/build/py_pubsub/install.log --single-version-externally-managed

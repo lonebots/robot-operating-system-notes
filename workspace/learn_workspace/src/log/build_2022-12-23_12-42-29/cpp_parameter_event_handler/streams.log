@@ -1,0 +1,68 @@
+[0.033s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/jishnu/project/ros2-project/projects/workspace/src/cpp_parameter_event_handler -DCMAKE_INSTALL_PREFIX=/home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler
+[0.148s] -- The C compiler identification is GNU 11.3.0
+[0.240s] -- The CXX compiler identification is GNU 11.3.0
+[0.249s] -- Detecting C compiler ABI info
+[0.332s] -- Detecting C compiler ABI info - done
+[0.338s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.339s] -- Detecting C compile features
+[0.340s] -- Detecting C compile features - done
+[0.343s] -- Detecting CXX compiler ABI info
+[0.424s] -- Detecting CXX compiler ABI info - done
+[0.431s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.431s] -- Detecting CXX compile features
+[0.432s] -- Detecting CXX compile features - done
+[0.444s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.658s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.854s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[1.007s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.060s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.087s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.322s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.338s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.814s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.944s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.029s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.063s] -- Looking for pthread.h
+[3.146s] -- Looking for pthread.h - found
+[3.146s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.224s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.226s] -- Found Threads: TRUE  
+[3.436s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.560s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.560s] -- Configured cppcheck include dirs: 
+[3.560s] -- Configured cppcheck exclude dirs and/or files: 
+[3.562s] -- Added test 'lint_cmake' to check CMake code style
+[3.564s] -- Added test 'uncrustify' to check C / C++ code style
+[3.564s] -- Configured uncrustify additional arguments: 
+[3.566s] -- Added test 'xmllint' to check XML markup files
+[3.570s] -- Configuring done
+[3.739s] -- Generating done
+[3.741s] -- Build files have been written to: /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameter_event_handler
+[3.748s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/jishnu/project/ros2-project/projects/workspace/src/cpp_parameter_event_handler -DCMAKE_INSTALL_PREFIX=/home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler
+[3.750s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameter_event_handler -- -j8 -l8
+[3.806s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[11.066s] [100%] [32m[1mLinking CXX executable parameter_event_handler[0m
+[11.394s] [100%] Built target parameter_event_handler
+[11.985s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameter_event_handler -- -j8 -l8
+[12.080s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameter_event_handler
+[12.089s] -- Install configuration: ""
+[12.089s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler
+[12.092s] -- Set runtime path of "/home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler" to ""
+[12.092s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_event_handler
+[12.092s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_event_handler
+[12.092s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.sh
+[12.093s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.dsv
+[12.093s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.sh
+[12.093s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.dsv
+[12.093s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.bash
+[12.093s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.sh
+[12.093s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.zsh
+[12.093s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.dsv
+[12.093s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv
+[12.093s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/ament_index/resource_index/packages/cpp_parameter_event_handler
+[12.094s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig.cmake
+[12.094s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig-version.cmake
+[12.094s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.xml
+[12.096s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameter_event_handler

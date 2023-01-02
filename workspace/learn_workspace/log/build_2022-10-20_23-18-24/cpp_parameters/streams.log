@@ -1,0 +1,4 @@
+[0.210s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters -- -j8 -l8
+[0.918s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_node.dir/src/cpp_parameters_node.cpp.o[0m
+[4.408s] [100%] [32m[1mLinking CXX executable parameter_node[0m
+[4.578s] [100%] Built target parameter_node

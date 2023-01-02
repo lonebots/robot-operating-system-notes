@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+../../build/python_parameters/python_parameters.egg-info/SOURCES.txt
+../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+../../build/python_parameters/python_parameters.egg-info/requires.txt
+../../build/python_parameters/python_parameters.egg-info/top_level.txt
+../../build/python_parameters/python_parameters.egg-info/zip-safe
+launch/python_paramaters_launch.py
+python_parameters/__init__.py
+python_parameters/python_parameters_node.py
+resource/python_parameters
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

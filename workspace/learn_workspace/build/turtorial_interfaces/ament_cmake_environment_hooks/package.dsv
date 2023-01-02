@@ -1,0 +1,4 @@
+source;share/turtorial_interfaces/local_setup.bash
+source;share/turtorial_interfaces/local_setup.dsv
+source;share/turtorial_interfaces/local_setup.sh
+source;share/turtorial_interfaces/local_setup.zsh

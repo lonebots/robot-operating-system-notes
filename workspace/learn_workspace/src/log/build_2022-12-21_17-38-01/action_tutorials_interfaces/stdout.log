@@ -1,0 +1,36 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jishnu/project/ros2-project/projects/workspace/src/build/action_tutorials_interfaces
+-- Install configuration: ""
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/ament_index/resource_index/package_run_dependencies/action_tutorials_interfaces
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/ament_index/resource_index/parent_prefix_path/action_tutorials_interfaces
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.sh
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.dsv
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.bash
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.sh
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.zsh
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.dsv
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/ament_index/resource_index/packages/action_tutorials_interfaces
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig.cmake
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig-version.cmake
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.xml

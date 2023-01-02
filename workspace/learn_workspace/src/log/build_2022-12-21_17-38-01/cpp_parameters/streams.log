@@ -1,0 +1,72 @@
+[0.158s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/jishnu/project/ros2-project/projects/workspace/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters
+[0.401s] -- The C compiler identification is GNU 11.3.0
+[0.560s] -- The CXX compiler identification is GNU 11.3.0
+[0.631s] -- Detecting C compiler ABI info
+[0.898s] -- Detecting C compiler ABI info - done
+[0.911s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.911s] -- Detecting C compile features
+[0.912s] -- Detecting C compile features - done
+[0.916s] -- Detecting CXX compiler ABI info
+[1.174s] -- Detecting CXX compiler ABI info - done
+[1.199s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.199s] -- Detecting CXX compile features
+[1.200s] -- Detecting CXX compile features - done
+[1.230s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.796s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.195s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[2.443s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.482s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.527s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.610s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.706s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.968s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.999s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.412s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.485s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.615s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.666s] -- Looking for pthread.h
+[3.854s] -- Looking for pthread.h - found
+[3.855s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.018s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.019s] -- Found Threads: TRUE  
+[4.332s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.565s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.566s] -- Configured cppcheck include dirs: 
+[4.566s] -- Configured cppcheck exclude dirs and/or files: 
+[4.569s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.574s] -- Added test 'lint_cmake' to check CMake code style
+[4.581s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.582s] -- Added test 'uncrustify' to check C / C++ code style
+[4.582s] -- Configured uncrustify additional arguments: 
+[4.584s] -- Added test 'xmllint' to check XML markup files
+[4.590s] -- Configuring done
+[4.675s] -- Generating done
+[4.675s] -- Build files have been written to: /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameters
+[4.756s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/jishnu/project/ros2-project/projects/workspace/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters
+[4.760s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameters -- -j8 -l8
+[4.979s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_node.dir/src/cpp_parameters_node.cpp.o[0m
+[13.896s] [100%] [32m[1mLinking CXX executable parameter_node[0m
+[14.387s] [100%] Built target parameter_node
+[14.440s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameters -- -j8 -l8
+[14.698s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameters
+[14.727s] -- Install configuration: ""
+[14.728s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/lib/cpp_parameters/parameter_node
+[14.729s] -- Set runtime path of "/home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/lib/cpp_parameters/parameter_node" to ""
+[14.731s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/cpp_parameters/launch
+[14.732s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/cpp_parameters/launch/cpp_parameters_launch.py
+[14.761s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[14.762s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[14.762s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[14.763s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[14.763s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[14.763s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[14.764s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[14.764s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[14.765s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[14.765s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[14.766s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/cpp_parameters/package.dsv
+[14.766s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[14.767s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[14.768s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[14.768s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_parameters/share/cpp_parameters/package.xml
+[14.798s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_parameters

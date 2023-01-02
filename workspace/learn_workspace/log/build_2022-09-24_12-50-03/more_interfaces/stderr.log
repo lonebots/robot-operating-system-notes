@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o: in function `std::enable_if<rosidl_generator_traits::is_message<more_interfaces::msg::AddressBook_<std::allocator<void> > >::value, rosidl_message_type_support_t const&>::type rclcpp::get_message_type_support_handle<more_interfaces::msg::AddressBook_<std::allocator<void> > >()':
+publish_address_book.cpp:(.text._ZN6rclcpp31get_message_type_support_handleIN15more_interfaces3msg12AddressBook_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv[_ZN6rclcpp31get_message_type_support_handleIN15more_interfaces3msg12AddressBook_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv]+0x10): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<more_interfaces::msg::AddressBook_<std::allocator<void> > >()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:152: publish_address_book] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publish_address_book.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

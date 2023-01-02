@@ -1,0 +1,49 @@
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found polygon_base: 0.0.0 (/home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/polygon_base/cmake)
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jishnu/project/ros2-project/projects/workspace/src/polygon_plugins/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jishnu/project/ros2-project/projects/workspace/src/build/polygon_plugins
+[ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libpolygon_plugins.so[0m
+[100%] Built target polygon_plugins
+-- Install configuration: ""
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/plugins.xml
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/lib/libpolygon_plugins.so
+-- Set runtime path of "/home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/lib/libpolygon_plugins.so" to ""
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/include
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/include/polygon_plugins
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/package.dsv
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/package.xml

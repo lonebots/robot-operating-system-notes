@@ -1,0 +1,24 @@
+[0.134s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_pubsub -- -j8 -l8
+[0.346s] [ 50%] Built target listener
+[0.369s] [100%] Built target talker
+[0.792s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_pubsub -- -j8 -l8
+[0.948s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_pubsub
+[0.969s] -- Install configuration: ""
+[0.969s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.969s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/lib/cpp_pubsub/listener
+[0.969s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.969s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.969s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.969s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[0.970s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.970s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[0.970s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.970s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.970s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.970s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[0.970s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[0.970s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.971s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.971s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.971s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.993s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_pubsub

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libmore_interfaces__rosidl_generator_c.so -o libmore_interfaces__rosidl_generator_c.so CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/motor_driver__functions.c.o  -Wl,-rpath,/opt/ros/humble/lib: /opt/ros/humble/lib/librosidl_runtime_c.so /opt/ros/humble/lib/librcutils.so -ldl 

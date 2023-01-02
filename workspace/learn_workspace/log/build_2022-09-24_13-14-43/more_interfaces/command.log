@@ -1,0 +1,4 @@
+Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces -- -j8 -l8
+Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces -- -j8 -l8
+Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces
+Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces

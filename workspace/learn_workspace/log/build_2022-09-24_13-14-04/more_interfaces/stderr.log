@@ -1,0 +1,14 @@
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:7:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kclass[m[K’
+    7 | using namespace std::chrono_literals
+      |                                     [01;31m[K^[m[K
+      |                                     [32m[K;[m[K
+    8 | 
+    9 |     [32m[Kclass[m[K MotorDriverPublisher : public rclcpp::Node
+      |     [32m[K~~~~~[m[K                            
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:37:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   37 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/publish_motor_driver.dir/build.make:76: CMakeFiles/publish_motor_driver.dir/src/publish_motor_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publish_motor_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

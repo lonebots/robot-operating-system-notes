@@ -1,0 +1,36 @@
+[0.023s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/polygon_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jishnu/project/ros2-project/projects/workspace/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/jishnu/project/ros2-project/projects/workspace/install/polygon_plugins
+[0.095s] -- The C compiler identification is GNU 11.2.0
+[0.164s] -- The CXX compiler identification is GNU 11.2.0
+[0.172s] -- Detecting C compiler ABI info
+[0.245s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.255s] -- Detecting C compile features
+[0.256s] -- Detecting C compile features - done
+[0.260s] -- Detecting CXX compiler ABI info
+[0.349s] -- Detecting CXX compiler ABI info - done
+[0.359s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.360s] -- Detecting CXX compile features
+[0.360s] -- Detecting CXX compile features - done
+[0.363s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.589s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.709s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.732s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.732s]   By not providing "Findpolygon_base.cmake" in CMAKE_MODULE_PATH this project
+[0.732s]   has asked CMake to find a package configuration file provided by
+[0.732s]   "polygon_base", but CMake did not find one.
+[0.732s] 
+[0.732s]   Could not find a package configuration file provided by "polygon_base" with
+[0.732s]   any of the following names:
+[0.732s] 
+[0.732s]     polygon_baseConfig.cmake
+[0.733s]     polygon_base-config.cmake
+[0.733s] 
+[0.733s]   Add the installation prefix of "polygon_base" to CMAKE_PREFIX_PATH or set
+[0.733s]   "polygon_base_DIR" to a directory containing one of the above files.  If
+[0.733s]   "polygon_base" provides a separate development package or SDK, be sure it
+[0.733s]   has been installed.
+[0.733s] 
+[0.733s] [0m
+[0.733s] -- Configuring incomplete, errors occurred!
+[0.733s] See also "/home/jishnu/project/ros2-project/projects/workspace/build/polygon_plugins/CMakeFiles/CMakeOutput.log".
+[0.736s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/polygon_plugins' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jishnu/project/ros2-project/projects/workspace/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/jishnu/project/ros2-project/projects/workspace/install/polygon_plugins

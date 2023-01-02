@@ -1,0 +1,3 @@
+[console_scripts]
+param_talker = python_parameters.python_parameters_node:main
+

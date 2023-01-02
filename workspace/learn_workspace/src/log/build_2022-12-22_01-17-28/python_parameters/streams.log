@@ -1,0 +1,23 @@
+[1.684s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/python_parameters': PYTHONPATH=/home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/prefix_override:/home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_parameters build --build-base /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build install --record /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/install.log --single-version-externally-managed
+[2.017s] running egg_info
+[2.018s] writing ../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[2.019s] writing dependency_links to ../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[2.019s] writing entry points to ../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[2.019s] writing requirements to ../build/python_parameters/python_parameters.egg-info/requires.txt
+[2.019s] writing top-level names to ../build/python_parameters/python_parameters.egg-info/top_level.txt
+[2.022s] reading manifest file '../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[2.030s] writing manifest file '../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[2.030s] running build
+[2.030s] running build_py
+[2.030s] running install
+[2.030s] running install_lib
+[2.030s] running install_data
+[2.030s] running install_egg_info
+[2.030s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.031s]   warnings.warn(
+[2.031s] removing '/home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info' (and everything under it)
+[2.031s] Copying ../build/python_parameters/python_parameters.egg-info to /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[2.032s] running install_scripts
+[2.057s] Installing param_talker script to /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python_parameters
+[2.057s] writing list of installed files to '/home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/install.log'
+[2.092s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/python_parameters' returned '0': PYTHONPATH=/home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/prefix_override:/home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_parameters build --build-base /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build install --record /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/install.log --single-version-externally-managed

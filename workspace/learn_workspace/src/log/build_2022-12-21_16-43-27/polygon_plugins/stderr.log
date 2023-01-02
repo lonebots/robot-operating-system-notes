@@ -1,0 +1,8 @@
+[31mCMake Error at CMakeLists.txt:34 (add_library):
+  add_library cannot create target "polygon_plugins" because another target
+  with the same name already exists.  The existing target is a shared library
+  created in source directory
+  "/home/jishnu/project/ros2-project/projects/workspace/src/polygon_plugins".
+  See documentation for policy CMP0002 for more details.
+
+[0m

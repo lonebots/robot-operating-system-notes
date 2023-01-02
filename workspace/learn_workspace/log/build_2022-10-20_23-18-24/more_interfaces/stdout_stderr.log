@@ -1,0 +1,41 @@
+[  3%] Built target more_interfaces__cpp
+[  3%] Built target ament_cmake_python_copy_more_interfaces
+[  6%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/motor_driver__type_support.cpp.o[0m
+[  9%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 12%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+running egg_info
+writing more_interfaces.egg-info/PKG-INFO
+writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+writing top-level names to more_interfaces.egg-info/top_level.txt
+reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[ 12%] Built target ament_cmake_python_build_more_interfaces_egg
+[ 15%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/motor_driver__type_support.cpp.o[0m
+[ 18%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 21%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 24%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/motor_driver__type_support.cpp.o[0m
+[ 27%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[ 30%] Built target more_interfaces__rosidl_typesupport_cpp
+[ 39%] Built target more_interfaces__rosidl_generator_c
+[ 42%] [32mBuilding CXX object CMakeFiles/publish_motor_driver.dir/src/publish_motor_driver.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable publish_motor_driver[0m
+[ 45%] Built target publish_motor_driver
+[ 54%] Built target more_interfaces__rosidl_typesupport_c
+[ 63%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[ 66%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/motor_driver__type_support_c.cpp.o[0m
+[ 69%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 72%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[ 72%] Built target more_interfaces
+[ 75%] Built target more_interfaces__py
+[ 78%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_motor_driver_s.c.o[0m
+[ 81%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__rosidl_generator_py.so[0m
+[ 81%] Built target more_interfaces__rosidl_generator_py
+[ 84%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 87%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 90%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 93%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[ 96%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext

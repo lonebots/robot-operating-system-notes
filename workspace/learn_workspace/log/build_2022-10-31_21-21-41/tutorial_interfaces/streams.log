@@ -1,0 +1,23 @@
+[0.299s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/tutorial_interfaces -- -j8 -l8
+[1.111s] [  2%] Built target tutorial_interfaces__cpp
+[1.111s] [ 12%] Built target tutorial_interfaces__rosidl_generator_c
+[1.112s] [ 23%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[1.112s] [ 34%] Built target tutorial_interfaces__rosidl_typesupport_c
+[1.114s] [ 34%] Built target ament_cmake_python_copy_tutorial_interfaces
+[1.115s] [ 44%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[1.195s] [ 55%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[1.330s] [ 65%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.442s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[1.505s] [ 76%] Built target tutorial_interfaces
+[1.540s] running egg_info
+[1.541s] writing tutorial_interfaces.egg-info/PKG-INFO
+[1.580s] [ 78%] Built target tutorial_interfaces__py
+[1.612s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[1.679s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[1.997s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.998s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[2.065s] [ 78%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[2.144s] [ 87%] Built target tutorial_interfaces__rosidl_generator_py
+[3.143s] [ 91%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.414s] [ 95%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[4.447s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext

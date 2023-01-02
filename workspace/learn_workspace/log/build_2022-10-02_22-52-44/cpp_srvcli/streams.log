@@ -1,0 +1,6 @@
+[0.983s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_srvcli -- -j8 -l8
+[2.091s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[2.091s] [ 50%] Built target client
+[2.091s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[2.092s] [100%] Built target server
+[2.096s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_srvcli -- -j8 -l8

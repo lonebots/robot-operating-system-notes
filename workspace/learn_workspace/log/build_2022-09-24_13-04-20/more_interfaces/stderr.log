@@ -1,0 +1,8 @@
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmore_interface/msg/motor_driver.hpp: No such file or directory
+    5 | #include [01;31m[K"more_interface/msg/motor_driver.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publish_motor_driver.dir/build.make:76: CMakeFiles/publish_motor_driver.dir/src/publish_motor_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publish_motor_driver.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

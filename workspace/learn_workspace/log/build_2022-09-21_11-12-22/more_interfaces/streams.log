@@ -1,0 +1,43 @@
+[0.016s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub:/home/jishnu/project/ros2-project/projects/workspace/install/ros_test_package:/home/jishnu/project/ros2-project/projects/workspace/install/py_srvcli:/home/jishnu/project/ros2-project/projects/workspace/install/my_package:/opt/ros/humble /usr/bin/cmake /home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/jishnu/project/ros2-project/projects/workspace/install/more_interfaces
+[0.077s] -- The C compiler identification is GNU 11.2.0
+[0.132s] -- The CXX compiler identification is GNU 11.2.0
+[0.137s] -- Detecting C compiler ABI info
+[0.180s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.187s] -- Detecting C compile features
+[0.187s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.256s] -- Detecting CXX compile features
+[0.256s] -- Detecting CXX compile features - done
+[0.258s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.423s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+[0.522s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.529s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.539s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.578s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.621s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.754s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.758s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.873s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.907s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.971s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.211s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.489s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.879s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.901s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.4", minimum required is "3.6") 
+[1.903s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.931s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.4", minimum required is "3.5") 
+[1.931s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.931s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.931s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.957s] -- Found PythonExtra: .so  
+[1.999s] [31mCMake Error at CMakeLists.txt:34 (ament_targe_dependencies):
+[1.999s]   Unknown CMake command "ament_targe_dependencies".
+[2.000s] 
+[2.000s] [0m
+[2.000s] -- Configuring incomplete, errors occurred!
+[2.000s] See also "/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+[2.015s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub:/home/jishnu/project/ros2-project/projects/workspace/install/ros_test_package:/home/jishnu/project/ros2-project/projects/workspace/install/py_srvcli:/home/jishnu/project/ros2-project/projects/workspace/install/my_package:/opt/ros/humble /usr/bin/cmake /home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/jishnu/project/ros2-project/projects/workspace/install/more_interfaces
