@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target polygon_plugins[0m
+[100%] Built target polygon_plugins
+-- Install configuration: ""
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/plugins.xml
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/lib/libpolygon_plugins.so
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/include
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/include/polygon_plugins
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/package.dsv
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+-- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_plugins/share/polygon_plugins/package.xml

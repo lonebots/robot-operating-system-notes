@@ -1,0 +1,38 @@
+running egg_info
+creating ../build/python_parameters/python_parameters.egg-info
+writing ../build/python_parameters/python_parameters.egg-info/PKG-INFO
+writing dependency_links to ../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+writing entry points to ../build/python_parameters/python_parameters.egg-info/entry_points.txt
+writing requirements to ../build/python_parameters/python_parameters.egg-info/requires.txt
+writing top-level names to ../build/python_parameters/python_parameters.egg-info/top_level.txt
+writing manifest file '../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+reading manifest file '../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+writing manifest file '../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build
+creating /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build/lib
+creating /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build/lib/python_parameters
+copying python_parameters/__init__.py -> /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build/lib/python_parameters
+copying python_parameters/python_parameters_node.py -> /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build/lib/python_parameters
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages/python_parameters
+copying /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages/python_parameters
+copying /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages/python_parameters
+byte-compiling /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages/python_parameters/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-310.pyc
+running install_data
+creating /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/share/ament_index
+creating /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/share/ament_index/resource_index
+creating /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/share/ament_index/resource_index/packages
+copying resource/python_parameters -> /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/share/ament_index/resource_index/packages
+copying package.xml -> /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/share/python_parameters
+copying launch/python_paramaters_launch.py -> /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/share/python_parameters
+running install_egg_info
+Copying ../build/python_parameters/python_parameters.egg-info to /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+running install_scripts
+Installing param_talker script to /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python_parameters
+writing list of installed files to '/home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/install.log'

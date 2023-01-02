@@ -1,0 +1,23 @@
+[0.100s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/tutorial_interfaces -- -j8 -l8
+[1.365s] [  2%] Built target tutorial_interfaces__cpp
+[1.366s] [ 12%] Built target tutorial_interfaces__rosidl_generator_c
+[1.366s] [ 23%] Built target tutorial_interfaces__rosidl_typesupport_c
+[1.367s] [ 34%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[1.368s] [ 44%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[1.368s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[1.370s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[1.371s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.372s] [ 76%] Built target tutorial_interfaces
+[1.372s] [ 78%] Built target tutorial_interfaces__py
+[1.373s] [ 87%] Built target tutorial_interfaces__rosidl_generator_py
+[1.373s] [ 87%] Built target ament_cmake_python_copy_tutorial_interfaces
+[1.373s] [ 91%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.373s] [ 95%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.373s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[1.674s] running egg_info
+[1.675s] writing tutorial_interfaces.egg-info/PKG-INFO
+[1.675s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[1.676s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[1.679s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.706s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.742s] [100%] Built target ament_cmake_python_build_tutorial_interfaces_egg

@@ -1,0 +1,8 @@
+source;share/polygon_base/hook/cmake_prefix_path.ps1
+source;share/polygon_base/hook/cmake_prefix_path.dsv
+source;share/polygon_base/hook/cmake_prefix_path.sh
+source;share/polygon_base/local_setup.bash
+source;share/polygon_base/local_setup.dsv
+source;share/polygon_base/local_setup.ps1
+source;share/polygon_base/local_setup.sh
+source;share/polygon_base/local_setup.zsh

@@ -1,0 +1,23 @@
+[0.337s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters -- -j8 -l8
+[1.532s] [100%] Built target parameter_node
+[1.535s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters -- -j8 -l8
+[2.020s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters
+[2.093s] -- Install configuration: ""
+[2.093s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/lib/cpp_parameters/parameter_node
+[2.095s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/launch
+[2.095s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/launch/cpp_parameters_launch.py
+[2.095s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[2.095s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[2.096s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[2.096s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[2.096s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[2.096s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[2.097s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[2.097s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[2.097s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[2.097s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[2.097s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/package.dsv
+[2.097s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[2.097s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[2.098s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[2.098s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/package.xml

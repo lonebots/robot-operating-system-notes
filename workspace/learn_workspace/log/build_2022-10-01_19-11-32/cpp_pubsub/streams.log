@@ -1,0 +1,4 @@
+[0.167s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub -- -j8 -l8
+[1.365s] [ 50%] Built target listener
+[1.366s] [100%] Built target talker
+[1.369s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub -- -j8 -l8

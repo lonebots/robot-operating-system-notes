@@ -1,0 +1,66 @@
+[0.114s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/jishnu/project/ros2-project/projects/workspace/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli
+[0.354s] -- The C compiler identification is GNU 11.3.0
+[0.514s] -- The CXX compiler identification is GNU 11.3.0
+[0.547s] -- Detecting C compiler ABI info
+[0.736s] -- Detecting C compiler ABI info - done
+[0.752s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.753s] -- Detecting C compile features
+[0.754s] -- Detecting C compile features - done
+[0.762s] -- Detecting CXX compiler ABI info
+[0.963s] -- Detecting CXX compiler ABI info - done
+[0.984s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.984s] -- Detecting CXX compile features
+[0.985s] -- Detecting CXX compile features - done
+[0.996s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.555s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.023s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[2.353s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.377s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.428s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.890s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.926s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.306s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.378s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.493s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.577s] -- Looking for pthread.h
+[3.713s] -- Looking for pthread.h - found
+[3.713s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.880s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.881s] -- Found Threads: TRUE  
+[4.230s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[4.598s] -- Configuring done
+[4.707s] -- Generating done
+[4.707s] -- Build files have been written to: /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_srvcli
+[5.201s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/jishnu/project/ros2-project/projects/workspace/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli
+[5.203s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_srvcli -- -j8 -l8
+[5.425s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[5.439s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[15.196s] [ 75%] [32m[1mLinking CXX executable client[0m
+[15.641s] [ 75%] Built target client
+[15.674s] [100%] [32m[1mLinking CXX executable server[0m
+[16.042s] [100%] Built target server
+[16.086s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_srvcli -- -j8 -l8
+[16.223s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_srvcli
+[16.239s] -- Install configuration: ""
+[16.240s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/lib/cpp_srvcli/server
+[16.241s] -- Set runtime path of "/home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[16.241s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/lib/cpp_srvcli/client
+[16.242s] -- Set runtime path of "/home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[16.242s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[16.242s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[16.242s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[16.243s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[16.243s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[16.243s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[16.243s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[16.243s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[16.244s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[16.244s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[16.244s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[16.244s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[16.244s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[16.245s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[16.245s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[16.253s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/src/build/cpp_srvcli

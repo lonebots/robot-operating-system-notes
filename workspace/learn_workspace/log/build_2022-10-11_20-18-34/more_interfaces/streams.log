@@ -1,0 +1,25 @@
+[0.409s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces -- -j8 -l8
+[0.959s] [  3%] Built target more_interfaces__cpp
+[0.960s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[0.960s] [ 21%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.960s] [ 30%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.960s] [ 39%] Built target more_interfaces__rosidl_typesupport_c
+[0.961s] [ 48%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.961s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.961s] [ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.961s] [ 66%] Built target more_interfaces
+[0.974s] [ 69%] Built target more_interfaces__py
+[1.036s] [ 75%] Built target more_interfaces__rosidl_generator_py
+[1.063s] [ 75%] Built target ament_cmake_python_copy_more_interfaces
+[1.122s] [ 81%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.133s] [ 87%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[1.169s] [ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.380s] [100%] Built target publish_motor_driver
+[1.684s] running egg_info
+[1.685s] writing more_interfaces.egg-info/PKG-INFO
+[1.685s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[1.685s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[1.689s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.828s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.892s] [100%] Built target ament_cmake_python_build_more_interfaces_egg
+[1.941s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces -- -j8 -l8

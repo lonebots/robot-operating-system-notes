@@ -1,0 +1,24 @@
+[0.362s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces -- -j8 -l8
+[1.016s] [  3%] Built target more_interfaces__cpp
+[1.017s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[1.133s] [ 21%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[1.280s] [ 30%] Built target more_interfaces__rosidl_typesupport_c
+[1.283s] [ 30%] Built target ament_cmake_python_copy_more_interfaces
+[1.411s] [ 39%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[1.413s] [ 48%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[1.831s] running egg_info
+[1.832s] writing more_interfaces.egg-info/PKG-INFO
+[1.885s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[1.888s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[1.896s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.897s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.966s] [ 48%] Built target ament_cmake_python_build_more_interfaces_egg
+[2.011s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.632s] [ 66%] Built target more_interfaces__rosidl_typesupport_cpp
+[3.436s] [ 66%] Built target more_interfaces
+[4.306s] [ 69%] Built target more_interfaces__py
+[4.509s] [ 75%] Built target publish_motor_driver
+[5.681s] [ 81%] Built target more_interfaces__rosidl_generator_py
+[7.070s] [ 87%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.148s] [ 93%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.307s] [100%] Built target more_interfaces__rosidl_typesupport_c__pyext

@@ -1,0 +1,39 @@
+[1.295s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/my_package': PYTHONPATH=/home/jishnu/project/ros2-project/projects/workspace/src/build/my_package/prefix_override:/home/jishnu/project/ros2-project/projects/workspace/src/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package build --build-base /home/jishnu/project/ros2-project/projects/workspace/src/build/my_package/build install --record /home/jishnu/project/ros2-project/projects/workspace/src/build/my_package/install.log --single-version-externally-managed
+[4.534s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.535s]   warnings.warn(
+[4.535s] running egg_info
+[4.535s] creating ../build/my_package/my_package.egg-info
+[4.535s] writing ../build/my_package/my_package.egg-info/PKG-INFO
+[4.535s] writing dependency_links to ../build/my_package/my_package.egg-info/dependency_links.txt
+[4.535s] writing entry points to ../build/my_package/my_package.egg-info/entry_points.txt
+[4.536s] writing requirements to ../build/my_package/my_package.egg-info/requires.txt
+[4.536s] writing top-level names to ../build/my_package/my_package.egg-info/top_level.txt
+[4.536s] writing manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[4.536s] reading manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[4.536s] writing manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[4.536s] running build
+[4.536s] running build_py
+[4.536s] creating /home/jishnu/project/ros2-project/projects/workspace/src/build/my_package/build
+[4.536s] creating /home/jishnu/project/ros2-project/projects/workspace/src/build/my_package/build/lib
+[4.536s] creating /home/jishnu/project/ros2-project/projects/workspace/src/build/my_package/build/lib/my_package
+[4.536s] copying my_package/__init__.py -> /home/jishnu/project/ros2-project/projects/workspace/src/build/my_package/build/lib/my_package
+[4.537s] copying my_package/my_node.py -> /home/jishnu/project/ros2-project/projects/workspace/src/build/my_package/build/lib/my_package
+[4.537s] running install
+[4.537s] running install_lib
+[4.537s] creating /home/jishnu/project/ros2-project/projects/workspace/src/install/my_package/lib/python3.10/site-packages/my_package
+[4.537s] copying /home/jishnu/project/ros2-project/projects/workspace/src/build/my_package/build/lib/my_package/__init__.py -> /home/jishnu/project/ros2-project/projects/workspace/src/install/my_package/lib/python3.10/site-packages/my_package
+[4.549s] copying /home/jishnu/project/ros2-project/projects/workspace/src/build/my_package/build/lib/my_package/my_node.py -> /home/jishnu/project/ros2-project/projects/workspace/src/install/my_package/lib/python3.10/site-packages/my_package
+[4.549s] byte-compiling /home/jishnu/project/ros2-project/projects/workspace/src/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[4.549s] byte-compiling /home/jishnu/project/ros2-project/projects/workspace/src/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc
+[4.549s] running install_data
+[4.549s] creating /home/jishnu/project/ros2-project/projects/workspace/src/install/my_package/share/ament_index
+[4.549s] creating /home/jishnu/project/ros2-project/projects/workspace/src/install/my_package/share/ament_index/resource_index
+[4.549s] creating /home/jishnu/project/ros2-project/projects/workspace/src/install/my_package/share/ament_index/resource_index/packages
+[4.550s] copying resource/my_package -> /home/jishnu/project/ros2-project/projects/workspace/src/install/my_package/share/ament_index/resource_index/packages
+[4.550s] copying package.xml -> /home/jishnu/project/ros2-project/projects/workspace/src/install/my_package/share/my_package
+[4.550s] running install_egg_info
+[4.550s] Copying ../build/my_package/my_package.egg-info to /home/jishnu/project/ros2-project/projects/workspace/src/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[4.550s] running install_scripts
+[4.550s] Installing my_node script to /home/jishnu/project/ros2-project/projects/workspace/src/install/my_package/lib/my_package
+[4.550s] writing list of installed files to '/home/jishnu/project/ros2-project/projects/workspace/src/build/my_package/install.log'
+[4.552s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/my_package' returned '0': PYTHONPATH=/home/jishnu/project/ros2-project/projects/workspace/src/build/my_package/prefix_override:/home/jishnu/project/ros2-project/projects/workspace/src/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package build --build-base /home/jishnu/project/ros2-project/projects/workspace/src/build/my_package/build install --record /home/jishnu/project/ros2-project/projects/workspace/src/build/my_package/install.log --single-version-externally-managed

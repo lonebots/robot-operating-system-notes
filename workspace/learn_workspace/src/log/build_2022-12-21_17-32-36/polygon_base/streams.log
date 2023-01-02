@@ -1,0 +1,30 @@
+[0.033s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/src/build/polygon_base -- -j8 -l8
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target area_node[0m
+[0.109s] [ 50%] [32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o[0m
+[2.530s] [100%] [32m[1mLinking CXX executable area_node[0m
+[2.754s] [100%] Built target area_node
+[2.765s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/src/build/polygon_base -- -j8 -l8
+[2.815s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/src/build/polygon_base
+[2.831s] -- Install configuration: ""
+[2.831s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/include
+[2.831s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/include/polygon_base
+[2.831s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[2.831s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/lib/polygon_base/area_node
+[2.833s] -- Set runtime path of "/home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/lib/polygon_base/area_node" to ""
+[2.833s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[2.833s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[2.834s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[2.834s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[2.834s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/polygon_base/environment/path.sh
+[2.834s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/polygon_base/environment/path.dsv
+[2.834s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/polygon_base/local_setup.bash
+[2.834s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/polygon_base/local_setup.sh
+[2.834s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/polygon_base/local_setup.zsh
+[2.834s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/polygon_base/local_setup.dsv
+[2.834s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/polygon_base/package.dsv
+[2.834s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[2.834s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.834s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[2.834s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[2.834s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/src/install/polygon_base/share/polygon_base/package.xml
+[2.837s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/src/build/polygon_base

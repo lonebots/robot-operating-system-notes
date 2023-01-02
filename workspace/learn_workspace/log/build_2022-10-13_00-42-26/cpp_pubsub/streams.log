@@ -1,0 +1,5 @@
+[0.481s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub -- -j8 -l8
+[1.576s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[1.749s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[1.773s] [ 50%] Built target listener
+[1.784s] [100%] Built target talker

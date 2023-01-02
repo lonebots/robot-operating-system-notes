@@ -1,0 +1,51 @@
+[0.018s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub:/home/jishnu/project/ros2-project/projects/workspace/install/ros_test_package:/home/jishnu/project/ros2-project/projects/workspace/install/py_srvcli:/home/jishnu/project/ros2-project/projects/workspace/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters -- -j8 -l8
+[0.051s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.247s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.289s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.292s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.301s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.435s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.437s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.613s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.845s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.939s] -- Configured cppcheck include dirs: 
+[0.940s] -- Configured cppcheck exclude dirs and/or files: 
+[0.940s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.941s] -- Added test 'lint_cmake' to check CMake code style
+[0.941s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.942s] -- Added test 'uncrustify' to check C / C++ code style
+[0.943s] -- Configured uncrustify additional arguments: 
+[0.943s] -- Added test 'xmllint' to check XML markup files
+[0.944s] -- Configuring done
+[0.954s] -- Generating done
+[0.955s] -- Build files have been written to: /home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters
+[0.980s] [35m[1mConsolidate compiler generated dependencies of target parameter_node[0m
+[0.998s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_node.dir/src/cpp_parameters_node.cpp.o[0m
+[4.856s] [100%] [32m[1mLinking CXX executable parameter_node[0m
+[5.001s] [100%] Built target parameter_node
+[5.012s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub:/home/jishnu/project/ros2-project/projects/workspace/install/ros_test_package:/home/jishnu/project/ros2-project/projects/workspace/install/py_srvcli:/home/jishnu/project/ros2-project/projects/workspace/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters -- -j8 -l8
+[5.048s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub:/home/jishnu/project/ros2-project/projects/workspace/install/ros_test_package:/home/jishnu/project/ros2-project/projects/workspace/install/py_srvcli:/home/jishnu/project/ros2-project/projects/workspace/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters
+[5.056s] -- Install configuration: ""
+[5.056s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/lib/cpp_parameters/parameter_node
+[5.057s] -- Set runtime path of "/home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/lib/cpp_parameters/parameter_node" to ""
+[5.057s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/launch
+[5.057s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/launch/cpp_parameters_launch.py
+[5.057s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[5.057s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[5.058s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[5.058s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[5.058s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[5.058s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[5.058s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[5.058s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[5.058s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[5.059s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[5.059s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/package.dsv
+[5.059s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[5.059s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[5.059s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[5.059s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_parameters/share/cpp_parameters/package.xml
+[5.061s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/install/py_pubsub:/home/jishnu/project/ros2-project/projects/workspace/install/ros_test_package:/home/jishnu/project/ros2-project/projects/workspace/install/py_srvcli:/home/jishnu/project/ros2-project/projects/workspace/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/build/cpp_parameters

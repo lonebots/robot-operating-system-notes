@@ -1,0 +1,66 @@
+[0.013s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/turtorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jishnu/project/ros2-project/projects/workspace/src/turtorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/jishnu/project/ros2-project/projects/workspace/install/turtorial_interfaces
+[0.049s] -- The C compiler identification is GNU 11.2.0
+[0.086s] -- The CXX compiler identification is GNU 11.2.0
+[0.091s] -- Detecting C compiler ABI info
+[0.137s] -- Detecting C compiler ABI info - done
+[0.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.143s] -- Detecting C compile features
+[0.143s] -- Detecting C compile features - done
+[0.145s] -- Detecting CXX compiler ABI info
+[0.195s] -- Detecting CXX compiler ABI info - done
+[0.201s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.202s] -- Detecting CXX compile features
+[0.203s] -- Detecting CXX compile features - done
+[0.205s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.328s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+[0.389s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.417s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.420s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.426s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.560s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.698s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.698s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.698s]   turtorial_interfaces --arguments-file
+[0.698s]   /home/jishnu/project/ros2-project/projects/workspace/build/turtorial_interfaces/rosidl_adapter__arguments__turtorial_interfaces.json
+[0.698s]   --output-dir
+[0.698s]   /home/jishnu/project/ros2-project/projects/workspace/build/turtorial_interfaces/rosidl_adapter/turtorial_interfaces
+[0.699s]   --output-file
+[0.699s]   /home/jishnu/project/ros2-project/projects/workspace/build/turtorial_interfaces/rosidl_adapter/turtorial_interfaces.idls)
+[0.699s]   returned error code 1:
+[0.699s] 
+[0.699s]   Error processing 'geometry_msgs/Point Center' of
+[0.699s]   'turtorial_interfaces/Sphere': ''Center' is an invalid field name.  It
+[0.699s]   should have the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.699s] 
+[0.699s]   Traceback (most recent call last):
+[0.699s] 
+[0.699s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.699s]       return _run_code(code, main_globals, None,
+[0.700s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.700s]       exec(code, run_globals)
+[0.700s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.700s]       sys.exit(main())
+[0.700s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.700s]       abs_idl_file = convert_to_idl(
+[0.700s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.700s]       return convert_msg_to_idl(
+[0.700s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.700s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.700s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[0.701s]       fields.append(Field(
+[0.701s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[0.701s]       raise NameError(
+[0.701s] 
+[0.701s]   NameError: 'Center' is an invalid field name.  It should have the pattern
+[0.701s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.701s] 
+[0.701s] Call Stack (most recent call first):
+[0.701s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.701s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.701s] 
+[0.701s] [0m
+[0.702s] -- Configuring incomplete, errors occurred!
+[0.702s] See also "/home/jishnu/project/ros2-project/projects/workspace/build/turtorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.707s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/turtorial_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jishnu/project/ros2-project/projects/workspace/src/turtorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/jishnu/project/ros2-project/projects/workspace/install/turtorial_interfaces

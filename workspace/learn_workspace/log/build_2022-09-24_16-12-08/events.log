@@ -1,0 +1,19 @@
+[0.000000] (-) TimerEvent: {}
+[0.000140] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000358] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000941] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001003] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001102] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001153] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001181] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001225] (-) JobUnselected: {'identifier': 'ros_test_package'}
+[0.001253] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001282] (python_parameters) JobQueued: {'identifier': 'python_parameters', 'dependencies': OrderedDict()}
+[0.001323] (python_parameters) JobStarted: {'identifier': 'python_parameters'}
+[0.099329] (-) TimerEvent: {}
+[0.199582] (-) TimerEvent: {}
+[0.299856] (-) TimerEvent: {}
+[0.400129] (-) TimerEvent: {}
+[0.415269] (python_parameters) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 281, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', "import sys;from setuptools.extern.packaging.specifiers import SpecifierSet;from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))"]\' returned non-zero exit status 1.\n'}
+[0.415884] (python_parameters) JobEnded: {'identifier': 'python_parameters', 'rc': 1}
+[0.426173] (-) EventReactorShutdown: {}

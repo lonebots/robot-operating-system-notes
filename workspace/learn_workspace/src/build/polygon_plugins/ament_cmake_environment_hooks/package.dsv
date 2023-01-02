@@ -1,0 +1,4 @@
+source;share/polygon_plugins/local_setup.bash
+source;share/polygon_plugins/local_setup.dsv
+source;share/polygon_plugins/local_setup.sh
+source;share/polygon_plugins/local_setup.zsh

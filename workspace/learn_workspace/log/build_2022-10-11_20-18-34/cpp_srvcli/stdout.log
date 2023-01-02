@@ -1,0 +1,22 @@
+[ 50%] Built target server
+[100%] Built target client
+-- Install configuration: ""
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/lib/cpp_srvcli/server
+-- Set runtime path of "/home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/lib/cpp_srvcli/client
+-- Set runtime path of "/home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+-- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_srvcli/share/cpp_srvcli/package.xml

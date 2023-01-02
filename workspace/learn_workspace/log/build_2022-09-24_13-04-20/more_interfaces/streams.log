@@ -1,0 +1,71 @@
+[0.018s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces -- -j8 -l8
+[0.047s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.231s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.236s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.276s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.315s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.420s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.422s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.581s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.812s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.122s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.342s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.659s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.685s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.685s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.685s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.703s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.703s] -- Configured cppcheck include dirs: 
+[1.703s] -- Configured cppcheck exclude dirs and/or files: 
+[1.704s] -- Added test 'lint_cmake' to check CMake code style
+[1.705s] -- Added test 'uncrustify' to check C / C++ code style
+[1.705s] -- Configured uncrustify additional arguments: 
+[1.706s] -- Added test 'xmllint' to check XML markup files
+[1.711s] -- Configuring done
+[1.758s] -- Generating done
+[1.762s] -- Build files have been written to: /home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces
+[1.789s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_c[0m
+[1.798s] [  3%] Built target more_interfaces__cpp
+[1.799s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[1.816s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.816s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.816s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c[0m
+[1.817s] [ 12%] Built target ament_cmake_python_copy_more_interfaces
+[1.818s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_cpp[0m
+[1.819s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c[0m
+[1.822s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.832s] [ 21%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[1.837s] [ 39%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.837s] [ 39%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[1.838s] [ 48%] Built target more_interfaces__rosidl_typesupport_c
+[1.840s] [ 66%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[1.841s] [ 66%] Built target more_interfaces__rosidl_typesupport_cpp
+[1.859s] [ 69%] Built target more_interfaces
+[1.859s] [ 69%] [32mBuilding CXX object CMakeFiles/publish_motor_driver.dir/src/publish_motor_driver.cpp.o[0m
+[1.878s] [ 72%] Built target more_interfaces__py
+[1.888s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_py[0m
+[1.900s] [ 78%] Built target more_interfaces__rosidl_generator_py
+[1.917s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.917s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.924s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c__pyext[0m
+[1.934s] [ 84%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.941s] [ 90%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.941s] [ 96%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[2.129s] [01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmore_interface/msg/motor_driver.hpp: No such file or directory
+[2.129s]     5 | #include [01;31m[K"more_interface/msg/motor_driver.hpp"[m[K
+[2.129s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.129s] compilation terminated.
+[2.132s] gmake[2]: *** [CMakeFiles/publish_motor_driver.dir/build.make:76: CMakeFiles/publish_motor_driver.dir/src/publish_motor_driver.cpp.o] Error 1
+[2.132s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publish_motor_driver.dir/all] Error 2
+[2.132s] gmake[1]: *** Waiting for unfinished jobs....
+[2.148s] running egg_info
+[2.149s] writing more_interfaces.egg-info/PKG-INFO
+[2.149s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[2.150s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[2.152s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[2.153s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[2.180s] [ 96%] Built target ament_cmake_python_build_more_interfaces_egg
+[2.181s] gmake: *** [Makefile:146: all] Error 2
+[2.183s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces -- -j8 -l8

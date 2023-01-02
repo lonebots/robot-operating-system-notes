@@ -1,0 +1,40 @@
+[2.249s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/python_parameters': PYTHONPATH=/home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/prefix_override:/home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_parameters build --build-base /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build install --record /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/install.log --single-version-externally-managed
+[3.017s] running egg_info
+[3.018s] creating ../build/python_parameters/python_parameters.egg-info
+[3.018s] writing ../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[3.019s] writing dependency_links to ../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[3.019s] writing entry points to ../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[3.019s] writing requirements to ../build/python_parameters/python_parameters.egg-info/requires.txt
+[3.019s] writing top-level names to ../build/python_parameters/python_parameters.egg-info/top_level.txt
+[3.019s] writing manifest file '../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[3.022s] reading manifest file '../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[3.023s] writing manifest file '../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[3.023s] running build
+[3.023s] running build_py
+[3.024s] creating /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build
+[3.024s] creating /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build/lib
+[3.024s] creating /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build/lib/python_parameters
+[3.024s] copying python_parameters/__init__.py -> /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build/lib/python_parameters
+[3.024s] copying python_parameters/python_parameters_node.py -> /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build/lib/python_parameters
+[3.343s] running install
+[3.343s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.343s]   warnings.warn(
+[3.344s] running install_lib
+[3.345s] creating /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[3.371s] copying /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[3.372s] copying /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[3.372s] byte-compiling /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages/python_parameters/__init__.py to __init__.cpython-310.pyc
+[3.373s] byte-compiling /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-310.pyc
+[3.374s] running install_data
+[3.375s] creating /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/share/ament_index
+[3.375s] creating /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/share/ament_index/resource_index
+[3.375s] creating /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/share/ament_index/resource_index/packages
+[3.375s] copying resource/python_parameters -> /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/share/ament_index/resource_index/packages
+[3.376s] copying package.xml -> /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/share/python_parameters
+[3.376s] copying launch/python_paramaters_launch.py -> /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/share/python_parameters
+[3.377s] running install_egg_info
+[3.379s] Copying ../build/python_parameters/python_parameters.egg-info to /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[3.380s] running install_scripts
+[3.481s] Installing param_talker script to /home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python_parameters
+[3.497s] writing list of installed files to '/home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/install.log'
+[3.698s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/python_parameters' returned '0': PYTHONPATH=/home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/prefix_override:/home/jishnu/project/ros2-project/projects/workspace/src/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_parameters build --build-base /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/build install --record /home/jishnu/project/ros2-project/projects/workspace/src/build/python_parameters/install.log --single-version-externally-managed

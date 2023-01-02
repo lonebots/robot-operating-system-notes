@@ -1,0 +1,2 @@
+[0mCMake Error: install(EXPORT "export_polygon_plugins" ...) includes target "polygon_plugins" more than once in the export set.[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

@@ -1,0 +1,31 @@
+[  6%] Built target more_interfaces__cpp
+[ 12%] Built target more_interfaces__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_more_interfaces
+[ 39%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 39%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[ 39%] Built target more_interfaces__rosidl_typesupport_c
+[ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[ 57%] Built target more_interfaces__rosidl_typesupport_cpp
+[ 66%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target publish_motor_driver[0m
+[ 66%] Built target more_interfaces
+[ 69%] [32mBuilding CXX object CMakeFiles/publish_motor_driver.dir/src/publish_motor_driver.cpp.o[0m
+[ 72%] Built target more_interfaces__py
+[ 78%] Built target more_interfaces__rosidl_generator_py
+[ 84%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[ 90%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing more_interfaces.egg-info/PKG-INFO
+writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+writing top-level names to more_interfaces.egg-info/top_level.txt
+reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_more_interfaces_egg
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:[m[K In lambda function:
+[01m[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:29:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<more_interfaces::msg::MotorDriver_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<more_interfaces::msg::MotorDriver_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+   29 |             this->motor_driver_publisher_.[01;31m[Kpublish[m[K(message);
+      |                                           [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/publish_motor_driver.dir/build.make:76: CMakeFiles/publish_motor_driver.dir/src/publish_motor_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publish_motor_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

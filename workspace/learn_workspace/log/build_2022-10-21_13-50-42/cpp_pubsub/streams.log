@@ -1,0 +1,27 @@
+[0.168s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub -- -j8 -l8
+[0.818s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.818s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.819s] [ 50%] Built target talker
+[0.820s] [100%] Built target listener
+[0.832s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub -- -j8 -l8
+[1.350s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub
+[1.415s] -- Install configuration: ""
+[1.501s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/lib/cpp_pubsub/talker
+[1.503s] -- Set runtime path of "/home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[1.550s] -- Installing: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/lib/cpp_pubsub/listener
+[1.555s] -- Set runtime path of "/home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[1.555s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[1.555s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[1.555s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[1.555s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[1.555s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[1.556s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[1.556s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[1.556s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[1.556s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[1.556s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[1.556s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[1.557s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[1.558s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[1.558s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[1.558s] -- Up-to-date: /home/jishnu/project/ros2-project/projects/workspace/install/cpp_pubsub/share/cpp_pubsub/package.xml

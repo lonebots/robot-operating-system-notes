@@ -1,0 +1,24 @@
+[0.687s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces -- -j8 -l8
+[1.196s] [  3%] Built target more_interfaces__cpp
+[1.196s] [ 27%] Built target more_interfaces__rosidl_typesupport_cpp
+[1.196s] [ 27%] Built target more_interfaces__rosidl_generator_c
+[1.196s] [ 30%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[1.196s] [ 39%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.364s] [ 48%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[1.366s] [ 57%] Built target more_interfaces__rosidl_typesupport_c
+[1.376s] [ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[1.479s] [ 66%] Built target more_interfaces
+[1.533s] [ 66%] Built target ament_cmake_python_copy_more_interfaces
+[1.563s] [ 75%] Built target more_interfaces__py
+[1.563s] [ 75%] Built target publish_motor_driver
+[1.648s] [ 81%] Built target more_interfaces__rosidl_generator_py
+[1.722s] [ 87%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.724s] [ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.818s] [100%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[1.956s] running egg_info
+[1.957s] writing more_interfaces.egg-info/PKG-INFO
+[1.957s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[1.957s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[1.973s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.974s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[2.000s] [100%] Built target ament_cmake_python_build_more_interfaces_egg

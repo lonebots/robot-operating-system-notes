@@ -1,0 +1,7 @@
+[0.206s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_srvcli -- -j8 -l8
+[0.873s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[4.779s] [ 50%] [32m[1mLinking CXX executable server[0m
+[4.974s] [ 50%] Built target server
+[5.126s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[8.419s] [100%] [32m[1mLinking CXX executable client[0m
+[8.598s] [100%] Built target client

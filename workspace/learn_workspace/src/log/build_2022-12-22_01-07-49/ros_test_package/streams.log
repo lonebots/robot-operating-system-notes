@@ -1,0 +1,22 @@
+[1.664s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/ros_test_package': PYTHONPATH=/home/jishnu/project/ros2-project/projects/workspace/src/build/ros_test_package/prefix_override:/home/jishnu/project/ros2-project/projects/workspace/src/install/ros_test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_test_package build --build-base /home/jishnu/project/ros2-project/projects/workspace/src/build/ros_test_package/build install --record /home/jishnu/project/ros2-project/projects/workspace/src/build/ros_test_package/install.log --single-version-externally-managed
+[2.044s] running egg_info
+[2.045s] writing ../build/ros_test_package/ros_test_package.egg-info/PKG-INFO
+[2.046s] writing dependency_links to ../build/ros_test_package/ros_test_package.egg-info/dependency_links.txt
+[2.046s] writing entry points to ../build/ros_test_package/ros_test_package.egg-info/entry_points.txt
+[2.046s] writing requirements to ../build/ros_test_package/ros_test_package.egg-info/requires.txt
+[2.046s] writing top-level names to ../build/ros_test_package/ros_test_package.egg-info/top_level.txt
+[2.049s] reading manifest file '../build/ros_test_package/ros_test_package.egg-info/SOURCES.txt'
+[2.068s] writing manifest file '../build/ros_test_package/ros_test_package.egg-info/SOURCES.txt'
+[2.068s] running build
+[2.068s] running build_py
+[2.068s] running install
+[2.068s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.068s]   warnings.warn(
+[2.068s] running install_lib
+[2.070s] running install_data
+[2.071s] running install_egg_info
+[2.073s] removing '/home/jishnu/project/ros2-project/projects/workspace/src/install/ros_test_package/lib/python3.10/site-packages/ros_test_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.073s] Copying ../build/ros_test_package/ros_test_package.egg-info to /home/jishnu/project/ros2-project/projects/workspace/src/install/ros_test_package/lib/python3.10/site-packages/ros_test_package-0.0.0-py3.10.egg-info
+[2.074s] running install_scripts
+[2.102s] writing list of installed files to '/home/jishnu/project/ros2-project/projects/workspace/src/build/ros_test_package/install.log'
+[2.207s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/ros_test_package' returned '0': PYTHONPATH=/home/jishnu/project/ros2-project/projects/workspace/src/build/ros_test_package/prefix_override:/home/jishnu/project/ros2-project/projects/workspace/src/install/ros_test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_test_package build --build-base /home/jishnu/project/ros2-project/projects/workspace/src/build/ros_test_package/build install --record /home/jishnu/project/ros2-project/projects/workspace/src/build/ros_test_package/install.log --single-version-externally-managed

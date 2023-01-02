@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.000136] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000176] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000244] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000272] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000295] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000334] (-) JobUnselected: {'identifier': 'ros_test_package'}
+[0.000379] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000509] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.000572] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.014651] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.015130] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.016638] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'jishnu'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jishnu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('DESKTOP_SESSION', 'ubuntu'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/108/usr/share/code/code'), ('MANAGERPID', '2156'), ('SYSTEMD_EXEC_PID', '2601'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '38981'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jishnu'), ('JOURNAL_STREAM', '8:39538'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jishnu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jishnu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Legion:@/tmp/.ICE-unix/2295,unix/Legion:/tmp/.ICE-unix/2295'), ('INVOCATION_ID', '242916a59f5b4174affc6ec2ffb354b1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S3QUS1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2642229cd5.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/108/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jishnu/project/ros2-project/projects/workspace/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.068951] (more_interfaces) StdoutLine: {'line': b'[  3%] Built target more_interfaces__cpp\n'}
+[0.069306] (more_interfaces) StdoutLine: {'line': b'[ 12%] Built target more_interfaces__rosidl_generator_c\n'}
+[0.078423] (more_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_more_interfaces\n'}
+[0.092562] (more_interfaces) StdoutLine: {'line': b'[ 24%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[0.092940] (more_interfaces) StdoutLine: {'line': b'[ 36%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.093104] (more_interfaces) StdoutLine: {'line': b'[ 39%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.098772] (-) TimerEvent: {}
+[0.102296] (more_interfaces) StdoutLine: {'line': b'[ 51%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.102659] (more_interfaces) StdoutLine: {'line': b'[ 57%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[0.105762] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publish_motor_driver\x1b[0m\n'}
+[0.106966] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.132940] (more_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/publish_motor_driver.dir/src/publish_motor_driver.cpp.o\x1b[0m\n'}
+[0.133425] (more_interfaces) StdoutLine: {'line': b'[ 69%] Built target more_interfaces\n'}
+[0.154195] (more_interfaces) StdoutLine: {'line': b'[ 72%] Built target more_interfaces__py\n'}
+[0.175175] (more_interfaces) StdoutLine: {'line': b'[ 78%] Built target more_interfaces__rosidl_generator_py\n'}
+[0.196766] (more_interfaces) StdoutLine: {'line': b'[ 87%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.197079] (more_interfaces) StdoutLine: {'line': b'[ 90%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.198855] (-) TimerEvent: {}
+[0.202195] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.298966] (-) TimerEvent: {}
+[0.399297] (-) TimerEvent: {}
+[0.405362] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.406945] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[0.407395] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[0.407603] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[0.411338] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[0.412448] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[0.449150] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[0.499404] (-) TimerEvent: {}
+[0.599731] (-) TimerEvent: {}
+[0.700006] (-) TimerEvent: {}
+[0.800285] (-) TimerEvent: {}
+[0.900566] (-) TimerEvent: {}
+[1.000850] (-) TimerEvent: {}
+[1.101176] (-) TimerEvent: {}
+[1.201449] (-) TimerEvent: {}
+[1.301721] (-) TimerEvent: {}
+[1.401995] (-) TimerEvent: {}
+[1.502269] (-) TimerEvent: {}
+[1.602550] (-) TimerEvent: {}
+[1.702823] (-) TimerEvent: {}
+[1.803102] (-) TimerEvent: {}
+[1.903380] (-) TimerEvent: {}
+[2.003670] (-) TimerEvent: {}
+[2.103944] (-) TimerEvent: {}
+[2.204223] (-) TimerEvent: {}
+[2.304503] (-) TimerEvent: {}
+[2.404808] (-) TimerEvent: {}
+[2.505091] (-) TimerEvent: {}
+[2.605370] (-) TimerEvent: {}
+[2.705672] (-) TimerEvent: {}
+[2.805950] (-) TimerEvent: {}
+[2.906230] (-) TimerEvent: {}
+[3.006508] (-) TimerEvent: {}
+[3.024192] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:7:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kclass\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.024518] (more_interfaces) StderrLine: {'line': b'    7 | using namespace std::chrono_literals\n'}
+[3.024730] (more_interfaces) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.024907] (more_interfaces) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.025062] (more_interfaces) StderrLine: {'line': b'    8 | \n'}
+[3.025199] (more_interfaces) StderrLine: {'line': b'    9 |     \x1b[32m\x1b[Kclass\x1b[m\x1b[K MotorDriverPublisher : public rclcpp::Node\n'}
+[3.025289] (more_interfaces) StderrLine: {'line': b'      |     \x1b[32m\x1b[K~~~~~\x1b[m\x1b[K                            \n'}
+[3.030767] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jishnu/project/ros2-project/projects/workspace/src/more_interfaces/src/publish_motor_driver.cpp:37:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[3.030995] (more_interfaces) StderrLine: {'line': b'   37 | }\n'}
+[3.031112] (more_interfaces) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.031218] (more_interfaces) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.106607] (-) TimerEvent: {}
+[3.206887] (-) TimerEvent: {}
+[3.307168] (-) TimerEvent: {}
+[3.407449] (-) TimerEvent: {}
+[3.507722] (-) TimerEvent: {}
+[3.608013] (-) TimerEvent: {}
+[3.708293] (-) TimerEvent: {}
+[3.808578] (-) TimerEvent: {}
+[3.908859] (-) TimerEvent: {}
+[4.009144] (-) TimerEvent: {}
+[4.087617] (more_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publish_motor_driver.dir/build.make:76: CMakeFiles/publish_motor_driver.dir/src/publish_motor_driver.cpp.o] Error 1\n'}
+[4.087919] (more_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publish_motor_driver.dir/all] Error 2\n'}
+[4.088085] (more_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.089883] (more_interfaces) CommandEnded: {'returncode': 2}
+[4.109229] (-) TimerEvent: {}
+[4.164298] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 2}
+[4.174908] (-) EventReactorShutdown: {}

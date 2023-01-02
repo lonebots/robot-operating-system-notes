@@ -1,0 +1,8 @@
+[31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+  Given plugin description file
+  '/home/jishnu/project/ros2-project/projects/workspace/src/polygon_base/plugins.xml'
+  does not exist
+Call Stack (most recent call first):
+  CMakeLists.txt:24 (pluginlib_export_plugin_description_file)
+
+[0m

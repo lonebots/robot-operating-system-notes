@@ -1,0 +1,89 @@
+[0.230s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'py_pubsub']
+[0.230s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['py_pubsub'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3cd3e0a200>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3cd47b5e10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3cd47b5e10>>)
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.250s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'py_pubsub'
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.288s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.335s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub', 'merge_install': False, 'path': '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.335s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.338s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.338s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub' with build type 'ament_python'
+[0.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[0.342s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[0.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[0.344s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.537s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub'
+[0.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.538s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub': PYTHONPATH=/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/py_pubsub build --build-base /home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/build/py_pubsub/build install --prefix /home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub --record /home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/build/py_pubsub/install.log --single-version-externally-managed
+[1.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub' returned '0': PYTHONPATH=/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/py_pubsub build --build-base /home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/build/py_pubsub/build install --prefix /home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub --record /home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/build/py_pubsub/install.log --single-version-externally-managed
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub' for CMake module files
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub' for CMake config files
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/lib'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/bin'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages'
+[1.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/bin'
+[1.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/share/py_pubsub/package.ps1'
+[1.072s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/share/py_pubsub/package.dsv'
+[1.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/share/py_pubsub/package.sh'
+[1.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/share/py_pubsub/package.bash'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/share/py_pubsub/package.zsh'
+[1.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[1.075s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.076s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.076s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.076s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.085s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.085s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.085s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.099s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.100s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/local_setup.ps1'
+[1.101s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/_local_setup_util_ps1.py'
+[1.102s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/setup.ps1'
+[1.103s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/local_setup.sh'
+[1.103s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/_local_setup_util_sh.py'
+[1.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/setup.sh'
+[1.105s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/local_setup.bash'
+[1.106s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/setup.bash'
+[1.107s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/local_setup.zsh'
+[1.107s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jishnu/project/ros2-project/projects/workspace/src/py_pubsub/install/setup.zsh'

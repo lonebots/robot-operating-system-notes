@@ -1,0 +1,28 @@
+[0.032s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/jishnu/project/ros2-project/projects/workspace/install/ros_test_package:/home/jishnu/project/ros2-project/projects/workspace/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub -- -j8 -l8
+[0.439s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.440s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.440s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.441s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.441s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.442s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.443s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.443s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.444s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.573s] -- Configuring done
+[0.575s] [31mCMake Error at CMakeLists.txt:23 (add_executable):
+[0.575s]   Cannot find source file:
+[0.576s] 
+[0.576s]     src/subscriber_memeber_function.cpp
+[0.576s] 
+[0.576s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.576s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.576s] 
+[0.576s] [0m
+[0.576s] [31mCMake Error at CMakeLists.txt:23 (add_executable):
+[0.576s]   No SOURCES given to target: listener
+[0.576s] 
+[0.576s] [0m
+[0.576s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.580s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.582s] Invoked command in '/home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/jishnu/project/ros2-project/projects/workspace/install/ros_test_package:/home/jishnu/project/ros2-project/projects/workspace/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/build/cpp_pubsub -- -j8 -l8

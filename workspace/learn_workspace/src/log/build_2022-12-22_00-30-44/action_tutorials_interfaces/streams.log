@@ -1,0 +1,23 @@
+[0.036s] Invoking command in '/home/jishnu/project/ros2-project/projects/workspace/src/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/ros2-project/projects/workspace/src/install/py_pubsub:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/project/ros2-project/projects/workspace/src/build/action_tutorials_interfaces -- -j8 -l8
+[0.127s] [  3%] Built target action_tutorials_interfaces__cpp
+[0.137s] [ 12%] Built target action_tutorials_interfaces__rosidl_generator_c
+[0.144s] [ 12%] Built target ament_cmake_python_copy_action_tutorials_interfaces
+[0.166s] [ 22%] Built target action_tutorials_interfaces__rosidl_typesupport_cpp
+[0.181s] [ 32%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.187s] [ 41%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c
+[0.196s] [ 51%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp
+[0.197s] [ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_c
+[0.197s] [ 70%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c
+[0.231s] [ 70%] Built target action_tutorials_interfaces
+[0.258s] [ 74%] Built target action_tutorials_interfaces__py
+[0.310s] [ 80%] Built target action_tutorials_interfaces__rosidl_generator_py
+[0.344s] [ 87%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.350s] [ 93%] Built target action_tutorials_interfaces__rosidl_typesupport_c__pyext
+[0.352s] [100%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.460s] running egg_info
+[0.461s] writing action_tutorials_interfaces.egg-info/PKG-INFO
+[0.461s] writing dependency_links to action_tutorials_interfaces.egg-info/dependency_links.txt
+[0.461s] writing top-level names to action_tutorials_interfaces.egg-info/top_level.txt
+[0.463s] reading manifest file 'action_tutorials_interfaces.egg-info/SOURCES.txt'
+[0.464s] writing manifest file 'action_tutorials_interfaces.egg-info/SOURCES.txt'
+[0.502s] [100%] Built target ament_cmake_python_build_action_tutorials_interfaces_egg
