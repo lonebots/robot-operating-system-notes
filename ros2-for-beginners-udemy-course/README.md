@@ -8,7 +8,7 @@ This section contains my learning of ROS2 with the above course in udemy learnin
 - ROS installation (ros2)
 - Basic knowledge of python or C++
 
-#### ROS introduction
+### ROS introduction
 
 [**ROS**](https://ros.org/)(Robotic operating system) is a middleware software that can be installed on Linux or Windows based machine and used to program robots. The software enables user to code a robot from scratch very easily. It reduces the intial environment setup overhead and makes the process more simpler. Here basically each of the different components in a robot are considered as **nodes**, multiple nodes are created and they communicate each other to achieve the dezired action by the robot.
 
@@ -24,8 +24,15 @@ You can follow the [tutorials](https://docs.ros.org/en/humble/Tutorials.html) in
 - [ ] Parameter
 - [ ] Actions
 
-#### ROS workspace
+### ROS workspace
 
-In ROS, first thing we need is a [workspace](),
+In ROS, first thing we need is a [workspace](), it is just a simple folder you can name it as your wish(we will create a folder called `ros2_ws`). But make sure that sure to create an `src` inside `ros2_ws`. It is in here furture coding (making packages) are done
 
-The communication in the
+```bash
+mkdir -p ros2_ws/src
+cd ros2_ws/src
+```
+
+### ROS Package
+
+[to be continued ...]
