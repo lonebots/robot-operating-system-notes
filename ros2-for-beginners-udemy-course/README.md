@@ -18,19 +18,15 @@ You can follow the [tutorials](https://docs.ros.org/en/humble/Tutorials.html) in
 
 ### Basic terminologies to keep in mind :
 
-- [ ] [Node](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html) : Node is a basic unit(element) in ros that is responsible for controlling an individual part of the robot( say for eg: wheels, motors, hand joints etc.). Nodes communicate via Topic, Service or actions
-  
-- [ ] [Topic](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html) : Topic acts as a bus for node to exchange messages. There are publisher and susbcriber nodes, they publish to the topics and get subscribed to the topic for communication. when a node subscribe to a topic all the messages in the topic will be available to it.
+- [x] [Node](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html) : Node is a basic unit(element) in ros that is responsible for controlling an individual part of the robot( say for eg: wheels, motors, hand joints etc.). Nodes communicate via Topic, Service or actions
+- [x] [Topic](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html) : Topic acts as a bus for node to exchange messages. There are publisher and susbcriber nodes, they publish to the topics and get subscribed to the topic for communication. when a node subscribe to a topic all the messages in the topic will be available to it.
 
-- [ ] [Service](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html) : IT s request-response based communication model. Here there can be multiple clients but, only one service server for a particular service.
+- [x] [Service](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html) : IT s request-response based communication model. Here there can be multiple clients but, only one service server for a particular service.
 
-- [ ] [Parameter](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Parameters/Understanding-ROS2-Parameters.html) : These are addional configuration value (integers, floats, booleans, strings, and lists are supported) that we pass in to a node while its processing. It can be set from a sensor or can be feed manually.
+- [x] [Parameter](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Parameters/Understanding-ROS2-Parameters.html) : These are addional configuration value (integers, floats, booleans, strings, and lists are supported) that we pass in to a node while its processing. It can be set from a sensor or can be feed manually.
 
-- [ ] [Actions](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html) : Mode of communication intended for lengthy task. it contains 3 parts: goal, feedback, result.
-   
-- [ ] [Colcon](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html) - build system that is used for building the packages and making it executable in ros2 environment, in ros1 we used **catkin**  as the build system.
-
-
+- [x] [Actions](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html) : Mode of communication intended for lengthy task. it contains 3 parts: goal, feedback, result.
+- [x] [Colcon](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html) - build system that is used for building the packages and making it executable in ros2 environment, in ros1 we used **catkin** as the build system.
 
 ### ROS workspace
 
@@ -43,5 +39,5 @@ cd ros2_ws/src
 
 ### ROS Package
 
-Packages are simple 
+Packages are simple
 [to be continued ...]
