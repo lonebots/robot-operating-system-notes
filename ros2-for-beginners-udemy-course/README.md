@@ -26,7 +26,7 @@ You can follow the [tutorials](https://docs.ros.org/en/humble/Tutorials.html) in
 - [x] [Parameter](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Parameters/Understanding-ROS2-Parameters.html) : These are addional configuration value (integers, floats, booleans, strings, and lists are supported) that we pass in to a node while its processing. It can be set from a sensor or can be feed manually.
 
 - [x] [Actions](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html) : Mode of communication intended for lengthy task. it contains 3 parts: goal, feedback, result.
-- [x] [Colcon](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html) - build system that is used for building the packages and making it executable in ros2 environment, in ros1 we used **catkin** as the build system.
+- [x] [Colcon](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html) - build tool, that is used for building the packages and making it executable in ros2 environment, in ros1 we used **catkin** as the build tool. **ament is the build system here**
 
 ### ROS workspace
 
@@ -39,5 +39,34 @@ cd ros2_ws/src
 
 ### ROS Package
 
-Packages are simple
-[to be continued ...]
+Packages are simply organised container of ros2 code. It make it easy to install dependencies and share our code. Packages can be created in python as well as C++ and they contains their own formats ans boiler plate code. Let' create a package using the below command
+
+**All the packages must lie in the `src` folder of the workspace**
+
+```bash
+# for python package
+ros2 pkg create --build-type ament_python my_ros2_py_package
+
+# for cpp package
+ros2 pkg create --build-type ament_cmake my_ros2_cpp_package
+
+```
+
+You need a node for building the package and execute something. for that you can try out on in [this](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html)
+
+### Building a Package
+
+For building a package we can use `colcon build`, it is build tool as we have already mentioned above. The command is used along with `--packages-select` option to provide the package name we wish to build.
+
+```bash
+# colcon build --packages-select <package name>
+
+colcon build --packages-select my_ros2_py_pkg
+
+```
+
+The above is just and example and you may not have anything to be build on the python package since it will only contain some boiler plate code.
+
+This gives the basic setup of ROS2 and I will be continuing my notes inside the notes folder for each chapter or topic
+
+**[continued in `notes` folder]**
