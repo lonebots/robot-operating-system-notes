@@ -4,8 +4,6 @@ Node is the basic unit of a ros program. It handles everthing related to a parti
 
 Nodes make it easy to handle things related to single entity or object
 
-![basic_node_image](https://user-images.githubusercontent.com/46082779/211215319-39e27df0-0ead-40a0-adf4-9864968cfc88.png)
-
 Take an example of a camera pkg it may contain the following node
 
 - camera driver node : for capturing the image
@@ -34,6 +32,8 @@ Each node can be launched separately and they communicate each other via topics,
 ### Creating your first Node
 
 ## Python Node :
+
+reference for [rclpy Node](https://docs.ros2.org/latest/api/rclpy/api/node.html)
 
 creating a node in python package, navigate to the `ros2_ws/src/my_py_pkg/my_py_pkg` and create a file `my_first_node.py`
 
