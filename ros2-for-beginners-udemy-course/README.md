@@ -45,10 +45,10 @@ Packages are simply organised container of ros2 code. It make it easy to install
 
 ```bash
 # for python package
-ros2 pkg create --build-type ament_python my_ros2_py_package
+ros2 pkg create --build-type ament_python my_py_pkg
 
 # for cpp package
-ros2 pkg create --build-type ament_cmake my_ros2_cpp_package
+ros2 pkg create --build-type ament_cmake my_cpp_pkg
 
 ```
 
@@ -61,7 +61,7 @@ For building a package we can use `colcon build`, it is build tool as we have al
 ```bash
 # colcon build --packages-select <package name>
 
-colcon build --packages-select my_ros2_py_pkg
+colcon build --packages-select my_py_pkg
 
 ```
 
