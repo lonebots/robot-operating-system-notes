@@ -5,23 +5,108 @@ Node is the basic unit of a ros program. It handles everthing related to a parti
 Nodes make it easy to handle things related to single entity or object
 
 Take an example of a camera pkg it may contain the following node
+
 - camera driver node : for capturing the image
 - image processing node : to do the basic image processing job
-- some more extra programs 
+- some more extra programs
 
 For motion planning package we may have
-- motion planning node 
-- path correction node : continuously interact with the motion planning node. 
+
+- motion planning node
+- path correction node : continuously interact with the motion planning node.
 
 For the Hardware control we may have
+
 - state publisher
 - Main control loop
 - drivers : for handling the motors, controlled by the main control loop
 
-Each node can be launched separately and they communicate each other via topics, sevice or actions. 
+Each node can be launched separately and they communicate each other via topics, sevice or actions.
 
 ### Characteristics of Node
+
 - reduce the code complexity
 - Node provide good debugging capablities(fault tolerance)
 - support for multiple programming languges
-  
+
+### Creating your first Node
+
+## Python Node :
+
+creating a node in python package, navigate to the `ros2_ws/src/my_py_pkg/my_py_pkg` and create a file `my_first_node.py`
+
+**my_first_node.py**
+
+```bash
+cd ros2_ws/src/my_py_pkg/my_py_pkg
+touch my_first_node.py
+```
+
+you may copy paste the below program or the code can be found in the respecitve folder of this repository.
+
+```python
+# import the library for ros2 functionality
+import rclpy
+
+def main(args=None):
+    rclpy.init(args=args)  # initialise the rclpy communication
+
+    # create a node
+    node = rclpy.create_node("py_test")
+
+    # hello world in ros2
+    node.get_logger().info("Hello ROS2")
+
+    # very important -- allow node to be alive continuously
+    rclpy.spin(node)
+
+    rclpy.shutdown()  # last line of every program
+
+    pass
+
+
+if __name__ == "__main__":
+    main()
+
+```
+
+After creating the node make the file executable using `chmod +x my_first_node.py` and run the program using
+
+```bash
+python3 my_first_node.py
+```
+
+you may get the output as
+
+> [INFO] [1673203700.060777181] [py_test]: Hello ROS2
+
+### How to setup this in executable file ?
+
+This is to inform ros2 how to make the file executable and specify the entry point to the program. update the `entry_point` in the `setup.py` file like give below:
+
+```python
+entry_points={
+        'console_scripts': [
+            "py_node = my_py_pkg.my_first_node:main"
+        ],
+    }
+```
+
+here, `py_node` is the name of the new node executable that is going to be installed in `ros2_ws/src/install/my_py_pkg/lib/my_py_pkg/py_node` location.
+
+### How to run the Node in the package ?
+
+follow the below steps:
+
+1. source the current ros2 environment by running following command from the `src` directory
+   ```bash
+   source ./install/setup.bash
+   source ./install/local_setup.bash
+   ```
+2. run the package using
+
+   ```bash
+    ros2 run my_py_pkg py_node
+   ```
+
+**Note :** we call the node with the entry point name (`py_node`) provide in the `setup.py` file.
