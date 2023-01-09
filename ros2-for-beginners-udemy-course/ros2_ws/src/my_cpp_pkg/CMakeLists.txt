@@ -26,7 +26,7 @@ install(TARGETS
 
 add_executable(cpp_oops_node src/cpp_oops_node.cpp)
 ament_target_dependencies(cpp_oops_node rclcpp)
-install(TARGET
+install(TARGETS
 cpp_oops_node
 DESTINATION lib/${PROJECT_NAME})
 
