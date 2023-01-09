@@ -10,8 +10,8 @@ int main(int argc, char **argv)
     std::make_shared<> creates a shared pointer 
     ros2 use share pointer almost every where
     whene pointer goes out of scope it will be automatically destoryed along with that the node also get destroyed
-    auto node = std::make_shared<rclcpp::Node>("cpp_test");
     */
+    auto node = std::make_shared<rclcpp::Node>("cpp_test");
 
     // log to terminal
     RCLCPP_INFO(node->get_logger(),"Hello CPP Node");
