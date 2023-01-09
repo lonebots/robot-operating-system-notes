@@ -9,6 +9,30 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 
+# custom_change : start
+
+# add the file in executable section
+add_executable(cpp_node src/my_first_node.cpp)
+ament_target_dependencies(cpp_node rclcpp)  # this linking is specific to the ament library --> not related to cmake commands
+# above line 15, 16 create an executable
+
+# install the executable
+# similar to the setup.cfg in the python package
+install(TARGETS 
+  cpp_node 
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+
+add_executable(cpp_oops_node src/cpp_oops_node.cpp)
+ament_target_dependencies(cpp_oops_node rclcpp)
+install(TARGETS
+cpp_oops_node
+DESTINATION lib/${PROJECT_NAME})
+
+# custom_change : end
+
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
