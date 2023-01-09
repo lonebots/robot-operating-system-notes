@@ -1,0 +1,12 @@
+[0.054s] Invoking command in '/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg -- -j8 -l8
+[0.169s] [35m[1mConsolidate compiler generated dependencies of target cpp_oops_node[0m
+[0.192s] [ 50%] Built target cpp_node
+[0.198s] [ 75%] [32mBuilding CXX object CMakeFiles/cpp_oops_node.dir/src/cpp_oops_node.cpp.o[0m
+[3.316s] [01m[K/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/my_cpp_pkg/src/cpp_oops_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::timerCallback()[m[K’:
+[3.316s] [01m[K/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/my_cpp_pkg/src/cpp_oops_node.cpp:18:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.316s]    18 |     [01;31m[K}[m[K
+[3.317s]       |     [01;31m[K^[m[K
+[3.972s] gmake[2]: *** [CMakeFiles/cpp_oops_node.dir/build.make:76: CMakeFiles/cpp_oops_node.dir/src/cpp_oops_node.cpp.o] Error 1
+[3.972s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cpp_oops_node.dir/all] Error 2
+[3.972s] gmake: *** [Makefile:146: all] Error 2
+[3.974s] Invoked command in '/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg -- -j8 -l8
