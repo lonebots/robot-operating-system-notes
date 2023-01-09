@@ -13,7 +13,7 @@ find_package(rclcpp REQUIRED)
 
 # add the file in executable section
 add_executable(cpp_node src/my_first_node.cpp)
-ament_target_dependecies(cpp_node rclcpp)  # this linking is specific to the ament library --> not related to cmake commands
+ament_target_dependencies(cpp_node rclcpp)  # this linking is specific to the ament library --> not related to cmake commands
 # above line 15, 16 create an executable
 
 # install the executable
@@ -24,5 +24,18 @@ install(TARGETS
 )
 
 # custom_change : end
+
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights
+  # comment the line when a copyright and license is added to all source files
+  set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips cpplint (only works in a git repo)
+  # comment the line when this package is in a git repo and when
+  # a copyright and license is added to all source files
+  set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
 
 ament_package()
