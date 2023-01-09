@@ -1,0 +1,34 @@
+[0.043s] Invoking command in '/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/test_py_pkg:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_py_pkg:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg -- -j8 -l8
+[0.086s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.303s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[0.353s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.357s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.366s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.390s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.424s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.526s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.537s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.778s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.035s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.141s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.141s] -- Configured cppcheck include dirs: 
+[1.141s] -- Configured cppcheck exclude dirs and/or files: 
+[1.141s] -- Added test 'lint_cmake' to check CMake code style
+[1.142s] -- Added test 'uncrustify' to check C / C++ code style
+[1.142s] -- Configured uncrustify additional arguments: 
+[1.143s] -- Added test 'xmllint' to check XML markup files
+[1.144s] -- Configuring done
+[1.157s] -- Generating done
+[1.159s] -- Build files have been written to: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg
+[1.204s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[1.228s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_oops_node.dir/src/cpp_oops_node.cpp.o[0m
+[1.237s] [ 75%] Built target cpp_node
+[4.158s] [01m[K/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/my_cpp_pkg/src/cpp_oops_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.158s] [01m[K/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/my_cpp_pkg/src/cpp_oops_node.cpp:6:20:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[4.158s]     6 |     auto node = std[01;31m[K:[m[Kmake_shared<rclcpp::Node>("cpp_opps_test");
+[4.158s]       |                    [01;31m[K^[m[K
+[4.158s]       |                    [32m[K::[m[K
+[4.745s] gmake[2]: *** [CMakeFiles/cpp_oops_node.dir/build.make:76: CMakeFiles/cpp_oops_node.dir/src/cpp_oops_node.cpp.o] Error 1
+[4.746s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cpp_oops_node.dir/all] Error 2
+[4.746s] gmake: *** [Makefile:146: all] Error 2
+[4.748s] Invoked command in '/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/test_py_pkg:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_py_pkg:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg -- -j8 -l8

@@ -210,6 +210,43 @@ cpp_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/build
 .PHONY : cpp_node/fast
 
+#=============================================================================
+# Target rules for targets named cpp_oops_node
+
+# Build rule for target.
+cpp_oops_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp_oops_node
+.PHONY : cpp_oops_node
+
+# fast build rule for target.
+cpp_oops_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_oops_node.dir/build.make CMakeFiles/cpp_oops_node.dir/build
+.PHONY : cpp_oops_node/fast
+
+src/cpp_oops_node.o: src/cpp_oops_node.cpp.o
+.PHONY : src/cpp_oops_node.o
+
+# target to build an object file
+src/cpp_oops_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_oops_node.dir/build.make CMakeFiles/cpp_oops_node.dir/src/cpp_oops_node.cpp.o
+.PHONY : src/cpp_oops_node.cpp.o
+
+src/cpp_oops_node.i: src/cpp_oops_node.cpp.i
+.PHONY : src/cpp_oops_node.i
+
+# target to preprocess a source file
+src/cpp_oops_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_oops_node.dir/build.make CMakeFiles/cpp_oops_node.dir/src/cpp_oops_node.cpp.i
+.PHONY : src/cpp_oops_node.cpp.i
+
+src/cpp_oops_node.s: src/cpp_oops_node.cpp.s
+.PHONY : src/cpp_oops_node.s
+
+# target to generate assembly for a file
+src/cpp_oops_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_oops_node.dir/build.make CMakeFiles/cpp_oops_node.dir/src/cpp_oops_node.cpp.s
+.PHONY : src/cpp_oops_node.cpp.s
+
 src/my_first_node.o: src/my_first_node.cpp.o
 .PHONY : src/my_first_node.o
 
@@ -250,6 +287,10 @@ help:
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... cpp_node"
+	@echo "... cpp_oops_node"
+	@echo "... src/cpp_oops_node.o"
+	@echo "... src/cpp_oops_node.i"
+	@echo "... src/cpp_oops_node.s"
 	@echo "... src/my_first_node.o"
 	@echo "... src/my_first_node.i"
 	@echo "... src/my_first_node.s"
