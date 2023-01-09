@@ -112,3 +112,44 @@ follow the below steps:
    ```
 
 **Note :** we call the node with the entry point name (`py_node`) provide in the `setup.py` file.
+
+
+## Python Node With OOPS
+
+implementing the node as a class using the python **OOPS** concept make it more scalable and easy to managel. You may change the code as given below in the previous file  `my_first_node.py` or create a new file  `my_node_oops.py` and repeat the general steps followed earlier. The code for the file is given below and the procedure for making it executable is as followed earlier.
+
+```python
+#!/usr/bin/env python3
+
+import rclpy
+from rclpy.node import Node
+
+# create a class inheriting from the 'Node' object
+class MyNode(Node) :
+
+    # initialise and call the super class with name of the node
+    def __init__(self) :
+        super().__init__("py_oops_node")
+        self.get_logger().info("hello from python oops node!")
+    
+
+def main(args=None):
+    rclpy.init()
+    node = MyNode()
+    rclpy.spin(node)
+    rclpy.shutdown()
+
+
+if __name__ == "__main__":
+    main()
+
+
+```
+
+### Implementing Timer and callback!
+
+For creating a general timer, using the api `create_timer` and setting the time limit and specifying a `call_back` function. The above **Node** class, that we have created can be edited as given below to implement the counter.
+
+```python
+
+```
