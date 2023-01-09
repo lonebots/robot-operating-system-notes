@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'my_py_pkg'
+package_name = 'test_py_pkg'
 
 setup(
     name=package_name,
@@ -20,7 +20,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "my_node = my_py_pkg.my_first_node:main"
         ],
     },
 )
