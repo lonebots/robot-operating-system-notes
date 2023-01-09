@@ -1,0 +1,58 @@
+[0.139s] Invoking command in '/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/test_py_pkg:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_py_pkg:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg
+[0.595s] -- The C compiler identification is GNU 11.3.0
+[0.595s] -- The CXX compiler identification is GNU 11.3.0
+[0.595s] -- Detecting C compiler ABI info
+[0.596s] -- Detecting C compiler ABI info - done
+[0.596s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.596s] -- Detecting C compile features
+[0.596s] -- Detecting C compile features - done
+[0.596s] -- Detecting CXX compiler ABI info
+[0.672s] -- Detecting CXX compiler ABI info - done
+[0.682s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.683s] -- Detecting CXX compile features
+[0.683s] -- Detecting CXX compile features - done
+[0.699s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.044s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.395s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[1.682s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.720s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.768s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.912s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.206s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.247s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.566s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.630s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.745s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.795s] -- Looking for pthread.h
+[2.921s] -- Looking for pthread.h - found
+[2.921s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.052s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.053s] -- Found Threads: TRUE  
+[3.398s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.621s] -- Added test 'lint_cmake' to check CMake code style
+[3.627s] -- Added test 'xmllint' to check XML markup files
+[3.637s] -- Configuring done
+[3.644s] -- Generating done
+[3.646s] -- Build files have been written to: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg
+[3.658s] Invoked command in '/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/test_py_pkg:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_py_pkg:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg
+[3.661s] Invoking command in '/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/test_py_pkg:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_py_pkg:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg -- -j8 -l8
+[3.740s] Invoked command in '/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/test_py_pkg:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_py_pkg:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg -- -j8 -l8
+[3.809s] Invoking command in '/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/test_py_pkg:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_py_pkg:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg
+[3.827s] -- Install configuration: ""
+[3.827s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[3.828s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[3.828s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[3.828s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[3.828s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[3.828s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[3.828s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[3.829s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[3.829s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[3.829s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[3.829s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[3.829s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[3.829s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[3.830s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[3.830s] -- Installing: /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[3.842s] Invoked command in '/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/test_py_pkg:/home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/install/my_py_pkg:/home/jishnu/project/moveit-projects/ws_moveit2/install/ros2controlcli:/home/jishnu/project/moveit-projects/ws_moveit2/install/moveit_configs_utils:/home/jishnu/ws_moveit2/install/ros2controlcli:/home/jishnu/ws_moveit2/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/jishnu/robotics/ros-git/ros2-for-beginners-udemy-course/ros2_ws/src/build/my_cpp_pkg
