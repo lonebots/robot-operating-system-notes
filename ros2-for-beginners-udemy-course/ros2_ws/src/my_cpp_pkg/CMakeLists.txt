@@ -23,6 +23,13 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
+
+add_executable(cpp_oops_node src/cpp_oops_node.cpp)
+ament_target_dependencies(cpp_oops_node rclcpp)
+install(TARGET
+cpp_oops_node
+DESTINATION lib/${PROJECT_NAME})
+
 # custom_change : end
 
 
