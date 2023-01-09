@@ -21,7 +21,7 @@ class MyNode(Node):
     # timer callback function
     def timer_callback(self):
         self.counter_ += 1  # increment by 1 every second
-        self.get_logger().info("oops node counter value : ", self.counter_)
+        self.get_logger().info("oops node counter value : " + str(self.counter_))
 
 
 def main(args=None):
