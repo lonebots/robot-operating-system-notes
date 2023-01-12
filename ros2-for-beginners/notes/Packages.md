@@ -49,3 +49,16 @@ colcon build --packages-select my_py_pkg
 # build C++ package
 colcon build --packages-select my_cpp_pkg
 ```
+
+### updating changes during Developement time without colcon build!
+
+We can use the `--symlink-install` flag along with `colcon build` command to update the changes that we made in a node to reflect during `ros2 run` without the need of building the package every time we make some changes.It works by creating a symlink to the file directly without having the need to build and install the executable inside the package.
+
+- This comes handy during the developement time.
+- The command is given below
+
+```bash
+colcon build --packages-select my_py_pkg --symlink-install
+```
+
+**Note:** when using this flag make sure to make the program file executable using the `chmod +x <file_name>` command else error will occur.
