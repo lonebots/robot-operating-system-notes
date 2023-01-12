@@ -113,10 +113,9 @@ follow the below steps:
 
 **Note :** we call the node with the entry point name (`py_node`) provide in the `setup.py` file.
 
-
 ## Python Node With OOPS
 
-implementing the node as a class using the python **OOPS** concept make it more scalable and easy to managel. You may change the code as given below in the previous file  `my_first_node.py` or create a new file  `my_node_oops.py` and repeat the general steps followed earlier. The code for the file is given below and the procedure for making it executable is as followed earlier.
+implementing the node as a class using the python **OOPS** concept make it more scalable and easy to managel. You may change the code as given below in the previous file `my_first_node.py` or create a new file `my_node_oops.py` and repeat the general steps followed earlier. The code for the file is given below and the procedure for making it executable is as followed earlier.
 
 ```python
 #!/usr/bin/env python3
@@ -131,7 +130,7 @@ class MyNode(Node) :
     def __init__(self) :
         super().__init__("py_oops_node")
         self.get_logger().info("hello from python oops node!")
-    
+
 
 def main(args=None):
     rclpy.init()
@@ -169,3 +168,18 @@ class MyNode(Node):
         self.get_logger().info("oops node counter value : " + str(self.counter_))
 
 ```
+
+you can run the above node similar to the previous one using the `ros2 run` command specifying the `<package_name>` and `<executable_name>`
+
+### Running same node after renaming it!
+
+we use `--ros-args` flag along with `--rmap` or `-r` flag to rename. The command is as given below.
+
+```bash
+ros2 run my_py_pkg my_oops_node --ros-args --rmap __node:=my_oops_node1
+ros2 run my_py_pkg my_oops_node --ros-args --rmap __node:=my_oops_node2
+```
+
+using the remap functionality the same node can be run with different name.
+
+**Note:** What happens when we run the same node with the same name multiple times? This won't show any error during the run time but it can create many **unintentional** error when the application grows or the nodes try to communicated with each other. We can use the `ros2 node list` command to see the warning when we try to run the same node multiple times with the same **node name** to duplicate some behaviours.
