@@ -61,4 +61,4 @@ We can use the `--symlink-install` flag along with `colcon build` command to upd
 colcon build --packages-select my_py_pkg --symlink-install
 ```
 
-**Note:** when using this flag make sure to make the program file executable using the `chmod +x <file_name>` command else error will occur.
+**Note:** when using this flag make sure to make the program file executable using the `chmod +x <file_name>` command else error will occur.run
