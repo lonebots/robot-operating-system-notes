@@ -5,6 +5,7 @@ my_py_pkg/__init__.py
 my_py_pkg/my_first_node.py
 my_py_pkg/py_node_oops.py
 my_py_pkg/robot_news_station.py
+my_py_pkg/smartphone.py
 my_py_pkg.egg-info/PKG-INFO
 my_py_pkg.egg-info/SOURCES.txt
 my_py_pkg.egg-info/dependency_links.txt
