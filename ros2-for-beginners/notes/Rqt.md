@@ -7,3 +7,5 @@ rqt
 # or
 rqt_graph
 ```
+
+This a very usefull tool to understand if the topics, its publisers and subscribers are correctly mapped or not. 
