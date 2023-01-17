@@ -2,20 +2,19 @@
 
 import rclpy
 from rclpy.node import Node
-from example_interfaces.msg import Int64
+from example_interfaces.msg import int
 
 
 class NumberPubliserNode(Node):
     def __init__(self) -> None:
         super().__init__("number_publisher")
-        self.number_ = 10
-        self.number_publisher_ = self.create_publisher(Int64, "number", 10)
-        self.timer_ = self.create_timer(1, self.publishNumber)
+
+        self.publisher_ = self.create_publisher(int, "number", 10)
 
     def publishNumber(self):
-        msg = Int64()
-        msg.data = self.number_
-        self.number_publisher_.publish(msg)
+        msg = int()
+        msg.data = 123
+        self.publisher_.publish(msg)
 
 
 def main(args=None):
