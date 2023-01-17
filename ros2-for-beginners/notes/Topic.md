@@ -20,3 +20,12 @@ The common options and their uses are list below
     5. hz - display the publishing frequency for a topic.
     6. bw - display the bandwidth.
     7. pub - publish message direcly in to a topic from the command line.
+
+
+## Remaping topics at run time
+
+The topic can be remaped to new names at run time using the `--ros-args --remap` tag used with the regulart `ros2 run` command. example code is given below.
+
+```bash
+ros2 run <package_name> <executable_name> --ros-args -r __node:= <new_node_name> -r <topic_name> := <new_topic_name> 
+```
