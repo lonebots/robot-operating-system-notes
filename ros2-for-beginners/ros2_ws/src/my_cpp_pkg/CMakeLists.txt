@@ -17,14 +17,25 @@ add_executable(cpp_node src/my_first_node.cpp)
 ament_target_dependencies(cpp_node rclcpp)  # this linking is specific to the ament library --> not related to cmake commands
 # above line 15, 16 create an executable
 
+# publisher subscriber : start
 add_executable(robot_news_station src/robot_news_station.cpp)
 ament_target_dependencies(robot_news_station rclcpp example_interfaces)
+
+add_executable(smartphone src/smartphone.cpp)
+ament_target_dependencies(smartphone rclcpp example_interfaces)
+
+install(TARGETS 
+  robot_news_station
+  smartphone
+  DESTINATION lib/${PROJECT_NAME}
+  )
+
+# publisher subscriber : end
 
 # install the executable
 # similar to the setup.cfg in the python package
 install(TARGETS 
-  cpp_node 
-  robot_news_station
+  cpp_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
