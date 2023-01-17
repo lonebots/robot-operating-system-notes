@@ -17,7 +17,7 @@ public:
         */
         subscriber_ = this->create_subscription<example_interfaces::msg::String>("robot_news", 10,
                                                                                  std::bind(&SmartPhoneNode::callbackRobotNews, this, std::placeholders::_1));
-        RCLCPP_INFO(this->get_logger(), "cpp smartphone node has been started")
+        RCLCPP_INFO(this->get_logger(), "cpp smartphone node has been started");
     }
 
 private:
@@ -28,17 +28,16 @@ private:
     }
 
     // declaration
-    rclcpp::Subcription<example_interfaces::msg::String>::SharedPtr subscriber_;
+    rclcpp::Subscription<example_interfaces::msg::String>::SharedPtr subscriber_;
 
-}
+};
 
 int
 main(int argc, char **argv)
 {
-    rclcpp::init();
+    rclcpp::init(argc,argv);
     auto node = std::make_shared<SmartPhoneNode>();
     rclcpp::spin(node);
-rclcpp:
-    shutdown();
+    rclcpp::shutdown();
     return 0;
 }
