@@ -5,10 +5,12 @@ from rclpy.node import Node
 from example_interfaces.msg import Int64
 
 
+
 class NumberCounterNode(Node):
     def __init__(self) -> None:
         super().__init__("number_counter")
         self.counter_ = 0
+
         self.counter_publisher_ = self.create_publisher(
             Int64, "number_count", 10)
         self.number_subscriber_ = self.create_subscription(
@@ -26,6 +28,7 @@ class NumberCounterNode(Node):
         new_msg = Int64()
         new_msg.data = self.counter_
         self.counter_publisher_.publish(new_msg)
+
 
 
 def main(args=None):
