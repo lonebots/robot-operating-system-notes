@@ -1,5 +1,14 @@
 .vscode
+
+# src
 **/**/**/build/
 **/**/**/install/
 **/**/**/log/
+
+# python package
 */*/*/*/*/__pycache__
+
+# src cpp package 
+*/*/*/*/*/build/
+*/*/*/*/*/install/
+*/*/*/*/*/log/
