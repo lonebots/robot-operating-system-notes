@@ -56,7 +56,7 @@ The service can be invoked directly from the terminal using the `ros2 service`. 
 
 ```bash
 # list all the available services
-ros2 service list 
+ros2 service list
 
 # call a running service from the terminal
 # ros2 service call <name_of_service> <type_of_service> "{key:value}"
@@ -72,9 +72,11 @@ response:
 example_interfaces.srv.AddTwoInts_Response(sum=5)
 ```
 
-## Python client 
+## Python client
 
 we make use of the `create_client` method of the `Node` class
+
+### Without OOPs
 
 **code**
 
@@ -120,7 +122,5 @@ def main(args=None):
 if __name__ == "__main__":
     main()
 ```
-
-### With out OOP
 
 
