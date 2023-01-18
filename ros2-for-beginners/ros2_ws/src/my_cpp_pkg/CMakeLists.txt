@@ -17,34 +17,30 @@ add_executable(cpp_node src/my_first_node.cpp)
 ament_target_dependencies(cpp_node rclcpp)  # this linking is specific to the ament library --> not related to cmake commands
 # above line 15, 16 create an executable
 
-# publisher subscriber : start
-add_executable(robot_news_station src/robot_news_station.cpp)
+add_executable(cpp_oops_node src/cpp_oops_node.cpp) # oop node
+ament_target_dependencies(cpp_oops_node rclcpp)
+
+# publisher/subscriber 
+add_executable(robot_news_station src/robot_news_station.cpp) # publisher
 ament_target_dependencies(robot_news_station rclcpp example_interfaces)
 
-add_executable(smartphone src/smartphone.cpp)
+add_executable(smartphone src/smartphone.cpp) # subscriber 
 ament_target_dependencies(smartphone rclcpp example_interfaces)
 
-install(TARGETS 
-  robot_news_station
-  smartphone
-  DESTINATION lib/${PROJECT_NAME}
-  )
+# client/server
+add_executable(add_two_ints_server src/add_two_ints_server.cpp)
+ament_target_dependencies(add_two_ints_server rclcpp example_interfaces)
 
-# publisher subscriber : end
 
-# install the executable
-# similar to the setup.cfg in the python package
+# target installs
 install(TARGETS 
   cpp_node
+  cpp_oops_node
+  robot_news_station
+  smartphone
+  add_two_ints_server
   DESTINATION lib/${PROJECT_NAME}
-)
-
-
-add_executable(cpp_oops_node src/cpp_oops_node.cpp)
-ament_target_dependencies(cpp_oops_node rclcpp)
-install(TARGETS
-cpp_oops_node
-DESTINATION lib/${PROJECT_NAME})
+  )
 
 # custom_change : end
 
