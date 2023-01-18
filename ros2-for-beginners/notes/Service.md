@@ -124,6 +124,7 @@ if __name__ == "__main__":
 ### With out OOP
 
 
+<<<<<<< HEAD
 # Service in ROS2
 
 This is another method for communication between nodes in ros2. This works like a request/response model. The system contains the following setup;
@@ -250,3 +251,5 @@ if __name__ == "__main__":
 ```
 
 
+=======
+>>>>>>> 45f963e (fix:resolve stash merge conflict)
