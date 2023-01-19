@@ -6,7 +6,6 @@ from rclpy.node import Node
 from example_interfaces.msg import Int64
 
 
-
 class NumberPubliserNode(Node):
     def __init__(self) -> None:
         super().__init__("number_publisher")
@@ -19,7 +18,6 @@ class NumberPubliserNode(Node):
         msg = Int64()
         msg.data = self.number_
         self.number_publisher_.publish(msg)
-
 
 
 def main(args=None):
