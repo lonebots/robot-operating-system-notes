@@ -291,3 +291,29 @@ int main(int argc, char **argv)
     return 0;
 }
 ```
+
+## ROS2 Service CLI Tools
+
+`ros2 service` provide following CLI tools for debugging the services from command line
+
+```bash
+ros2 service call <service_name> <service_type> "{key:value}" # invoke a currently running service 
+
+ros2 servie list  # list all the currently running services
+
+ros2 service find <servcie_type> # find a hidden service based on service type
+
+ros2 service type  <service_name> # display the type of service provided by the <service_name> 
+```
+
+**Note :** we can also use `rqt` `service` plugin for anaylizing services. we can call any service from the GUI of rqt tool.
+
+## Remaping Service names:
+
+```bash
+
+ros2 run my_cpp_pkg add_two_ints 
+
+ros2 run my_cpp_pkg_add_two_ints --ros-args -r add_two_ints:=new_name
+
+```
