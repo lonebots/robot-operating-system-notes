@@ -56,7 +56,7 @@ The service can be invoked directly from the terminal using the `ros2 service`. 
 
 ```bash
 # list all the available services
-ros2 service list 
+ros2 service list
 
 # call a running service from the terminal
 # ros2 service call <name_of_service> <type_of_service> "{key:value}"
@@ -72,7 +72,7 @@ response:
 example_interfaces.srv.AddTwoInts_Response(sum=5)
 ```
 
-## Python client 
+## Python client
 
 we make use of the `create_client` method of the `Node` class
 
@@ -125,10 +125,11 @@ if __name__ == "__main__":
 
 ### With OOPs
 
-when using oops we cannot call the `spin_until_future_complete` from within a class object, we need to handle it differently. 
+when using oops we cannot call the `spin_until_future_complete` from within a class object, we need to handle it differently.
+
 - we add a callback to the `future` object and which is called when the future is done
 
-**Code** 
+**Code**
 
 ```python3
 #!/usr/bin/python3
@@ -176,7 +177,6 @@ if __name__ == "__main__":
     main()
 ```
 
-
 # C++ client/server
 
 ## with no OOPs
@@ -185,7 +185,7 @@ if __name__ == "__main__":
 
 ```cpp
 #include "rclcpp/rclcpp.hpp"
-#include "example_interfaces/srv/add_two_ints.hpp" 
+#include "example_interfaces/srv/add_two_ints.hpp"
 
 #include <cstdlib>
 
@@ -197,12 +197,12 @@ int main(int argc, char **argv){
         RCLCPP_INFO(rclcpp::get_logger("rclcpp"),"usage : add_two_ints_client_no_oop X Y");
         return 1;
     }
-    
+
     auto node = std::make_shared<rclcpp::Node>("add_two_ints_client_no_opp");
     /*
-        create a client 
-        send request 
-        wait for the response 
+        create a client
+        send request
+        wait for the response
     */
     auto client = node->create_client<example_interfaces::srv::AddTwoInts>("add_two_ints");
     while(!client->wait_for_service(std::chrono::seconds(1))){
@@ -223,7 +223,70 @@ int main(int argc, char **argv){
         RCLCPP_ERROR(node->get_logger(),"Failed to call service add_two_ints");
     }
 
-    
+
+    rclcpp::shutdown();
+    return 0;
+}
+```
+
+## with OOPs
+
+```cpp
+#include "rclcpp/rclcpp.hpp"
+#include "example_interfaces/srv/add_two_ints.hpp"
+#include <cstdlib>
+
+class AddTwoIntsClientNode : public rclcpp::Node
+{
+public:
+    AddTwoIntsClientNode(int a, int b, int argc) : Node("add_two_ints_client")
+    {
+        RCLCPP_INFO(this->get_logger(), "cpp add two ints client started");
+
+        // we need to call the callback from different frame / thread inorder for function to not block the class constructor
+        thread1_ = std::thread(std::bind(&AddTwoIntsClientNode::callAddTwoIntsServie, this, a, b));
+    }
+
+    void callAddTwoIntsServie(int a, int b)
+    {
+        auto client = this->create_client<example_interfaces::srv::AddTwoInts>("add_two_ints");
+        while (!client->wait_for_service(std::chrono::seconds(1)))
+        {
+            RCLCPP_INFO(this->get_logger(), "waiting for server to be up ...");
+        }
+
+        auto request = std::make_shared<example_interfaces::srv::AddTwoInts::Request>();
+        request->a = a;
+        request->b = b;
+
+        auto future = client->async_send_request(request);
+        /*wait until the future has a response values and can handle exception*/
+
+        try
+        {
+            auto response = future.get();
+            RCLCPP_INFO(this->get_logger(), "%d + %d = %ld ", a, b, response->sum);
+        }
+        catch (const std::exception &e)
+        {
+            RCLCPP_ERROR(this->get_logger(), "service call failed");
+        }
+    }
+
+private:
+    //  create a new thread
+    std::thread thread1_;
+};
+
+int main(int argc, char **argv)
+{
+    rclcpp::init(argc, argv);
+    if (argc != 3)
+    {
+        RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "usage : add_two_ints_client A B");
+    }
+    auto node = std::make_shared<AddTwoIntsClientNode>(atoll(argv[1]), atoll(argv[2]), argc);
+    rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;
 }
