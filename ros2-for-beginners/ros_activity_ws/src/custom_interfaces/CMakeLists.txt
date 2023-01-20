@@ -24,7 +24,6 @@ set(srv
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg}
   ${srv}
-
 )
 
 ament_package()
