@@ -36,5 +36,41 @@ response msgs
 
 ```
 
-# Custom Message Definition
+# Custom Interface Definition
+
+
+**step 0**
+
+- Generate a package using `ros2 pkg create` without using `--build-type` and specifying any `dependencies`.
+- remove the folders : `include/` and `src/`
+- create new folders : `msg/` and `srv/`
+
+### Pacakge setup
+
+1. update pacakge.xml - include the following lines
+
+```xml
+<build_depend>rosidl_default_generators</build_depend>
+<exec_depend>rosidl_default_runtime</exec_depend>
+<member_of_group>rosidl_interface_packages</member_of_group>
+```
+
+2. update CmakeLists.txt file - include the following lines
+
+```cmake
+# include find package
+find_package(rosidi_interface_generators REQUIRED)
+
+
+# generate the source code for the interfaces
+rosidl_generate_interfaces(${PROJECT_NAME}
+
+"srv/custom_service.srv"    #"path_to_srv"
+
+"msb/custom_messge.msg"     #"path_to_msg"
+
+)
+```
+
+3. build the package using `colcon build`
 

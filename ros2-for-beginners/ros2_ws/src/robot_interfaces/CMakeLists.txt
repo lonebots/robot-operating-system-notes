@@ -9,9 +9,20 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
+# for msg
+set(msg
+"msg/HardwareStatus.msg"
+)
+
+# for srv
+set(srv
+"srv/ComputeRectangleArea.srv"
+)
+
 # generate the interface source code
 rosidl_generate_interfaces(${PROJECT_NAME}
-"msg/HardwareStatus.msg"
+${msg}
+${srv}
 )
 
 ament_package()
