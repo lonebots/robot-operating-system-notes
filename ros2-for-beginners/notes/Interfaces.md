@@ -36,7 +36,8 @@ response msgs
 
 ```
 
-# Custom Message Definition
+# Custom Interface Definition
+
 
 **step 0**
 
@@ -72,3 +73,4 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 ```
 
 3. build the package using `colcon build`
+
