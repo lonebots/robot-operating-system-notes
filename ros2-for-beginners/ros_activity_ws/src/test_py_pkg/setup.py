@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             "number_publisher = test_py_pkg.number_publisher:main",
             "number_counter = test_py_pkg.number_counter:main",
+            "led_panel_node = test_py_pkg.led_panel_node:main",
+            "battery_node = test_py_pkg.battery_node:main"
         ],
     },
 )
