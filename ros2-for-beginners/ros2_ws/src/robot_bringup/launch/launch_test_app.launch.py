@@ -16,7 +16,11 @@ def generate_launch_description():
     robot_news_station = Node(
         package="my_cpp_pkg",
         executable="robot_news_station",
-        name="yoyo_news_robot"
+        name="yoyo_news_robot",
+        remappings=[
+            ('robot_news', 'yoyo_robot_news_topic')  # for topic and services
+            #  {key: value } for parameters
+        ]
     )
 
     ld.add_action(python_oops_node)
