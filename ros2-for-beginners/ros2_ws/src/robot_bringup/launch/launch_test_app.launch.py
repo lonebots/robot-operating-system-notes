@@ -19,6 +19,9 @@ def generate_launch_description():
         name="yoyo_news_robot",
         remappings=[
             ('robot_news', 'yoyo_robot_news_topic')  # for topic and services
+
+        ],
+        parameters=[
             #  {key: value } for parameters
         ]
     )
