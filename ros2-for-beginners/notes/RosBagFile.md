@@ -5,11 +5,11 @@ Bag files are used to store data that are published by topic on running a partic
 - debugging
 - replay the recorded data
 
-The database inside the file is **Sqllite**
+The database inside the file is **SQLite**
 
 ### Command used
 
-The command used to access the `bag`s in ROS2 are following.
+The command used to access the `bag`'s in ROS2 are following.
 
 - once a bag file start recording, it creates a subscriber to the topic mentioned in the command.
 - we can also record multiple topics at the same time.
