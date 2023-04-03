@@ -2,7 +2,7 @@
 
 Node is the basic unit of a ros program. It handles everthing related to a particular part of a robot for eg, a gear-mortor, servo, sensor, camera etc.
 
-Nodes make it easy to handle things related to single entity or object
+Nodes make it easy to handle things related to single entity or object.
 
 Take an example of a camera pkg it may contain the following node
 
@@ -21,7 +21,7 @@ For the Hardware control we may have
 - Main control loop
 - drivers : for handling the motors, controlled by the main control loop
 
-Each node can be launched separately and they communicate each other via topics, sevice or actions.
+Each node can be launched separately and they communicate each other via topics, sevices or actions.
 
 ### Characteristics of Node
 
@@ -182,4 +182,4 @@ ros2 run my_py_pkg my_oops_node --ros-args --rmap __node:=my_oops_node2
 
 using the remap functionality the same node can be run with different name.
 
-**Note:** What happens when we run the same node with the same name multiple times? This won't show any error during the run time but it can create many **unintentional** error when the application grows or the nodes try to communicated with each other. We can use the `ros2 node list` command to see the warning when we try to run the same node multiple times with the same **node name** to duplicate some behaviours.
+**Note:** What happens when we run the same node with the same name multiple times? This won't show any error during the run time but it can create many **unintentional** error when the application grows or the nodes try to communicate with each other. We can use the `ros2 node list` command to see the warning when we try to run the same node multiple times with the same **node_name** to duplicate some behaviours.
