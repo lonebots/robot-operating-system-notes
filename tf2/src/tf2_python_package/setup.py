@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "static_turtle_tf2_broadcaster = tf2_python_package.stf_publisher:main",
         ],
     },
 )
