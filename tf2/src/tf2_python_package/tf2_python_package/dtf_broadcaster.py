@@ -43,7 +43,7 @@ class FramePublisher(Node):
 
         # Declare and acquire `turtlename` parameter
         self.turtlename = self.declare_parameter(
-          'turtlename', 'turtle').get_parameter_value().string_value
+            'turtlename', 'turtle').get_parameter_value().string_value
 
         # Initialize the transform broadcaster
         self.tf_broadcaster = TransformBroadcaster(self)
