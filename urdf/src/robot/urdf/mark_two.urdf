@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <robot name="rover">
+    
     <!-- materials -->
     <material name="black">
         <color rgba="1.0 1.0 1.0 1.0" />
@@ -9,8 +10,11 @@
         <color rgba="0.2 0.2 0.2 1.0" />
     </material>
 
+    <!-- footprint -->
     <link name="robot_footprint" />
 
+
+    <!-- base-link -->
     <link name="base_link">
         <visual>
             <geometry>
@@ -19,8 +23,18 @@
             <origin xyz="0.0 0.0 0.0" />
             <material name="gray" />
         </visual>
+        <collision>
+            <geometry>
+                <box size="0.8 0.4 0.1" />
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="5.0" />
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+        </inertial>
     </link>
 
+    <!-- links -->
     <link name="left_front_wheel">
         <visual>
             <geometry>
@@ -29,6 +43,12 @@
             <origin xyz="0.0 0.0 0.0" rpy="1.573 0.0 0.0" />
             <material name="black" />
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.1" length="0.05" />
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="1.573 0.0 0.0" />
+        </collision>
     </link>
 
     <link name="right_front_wheel">
@@ -39,6 +59,12 @@
             <origin xyz="0.0 0.0 0.0" rpy="1.573 0.0 0.0" />
             <material name="black" />
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.1" length="0.05" />
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="1.573 0.0 0.0" />
+        </collision>
     </link>
 
     <link name="left_back_wheel">
@@ -49,6 +75,12 @@
             <origin xyz="0.0 0.0 0.0" rpy="1.573 0.0 0.0" />
             <material name="black" />
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.1" length="0.05" />
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="1.573 0.0 0.0" />
+        </collision>
     </link>
 
     <link name="right_back_wheel">
@@ -59,8 +91,15 @@
             <origin xyz="0.0 0.0 0.0" rpy="1.573 0.0 0.0" />
             <material name="black" />
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.1" length="0.05" />
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="1.573 0.0 0.0" />
+        </collision>
     </link>
 
+    <!-- joints -->
     <joint name="base_joint" type="fixed">
         <parent link="robot_footprint" />
         <child link="base_link" />
