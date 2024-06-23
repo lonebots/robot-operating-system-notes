@@ -12,3 +12,6 @@
 */*/*/*/*/build/
 */*/*/*/*/install/
 */*/*/*/*/log/
+
+# python cache 
+*/*/*/*/__pycache__/

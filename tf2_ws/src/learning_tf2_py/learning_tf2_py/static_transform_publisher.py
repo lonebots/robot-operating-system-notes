@@ -5,13 +5,7 @@ import math
 import sys 
 import numpy as np
 from tf2_ros.static_transform_broadcaster import StaticTransformBroadcaster
-
-def euler_to_quaternion(roll, pitch, yaw):
-    qx = math.sin(roll/2) * math.cos(pitch/2) * math.cos(yaw/2) - math.cos(roll/2) * math.sin(pitch/2) * math.sin(yaw/2)
-    qy = math.cos(roll/2) * math.sin(pitch/2) * math.cos(yaw/2) + math.sin(roll/2) * math.cos(pitch/2) * math.sin(yaw/2)
-    qz = math.cos(roll/2) * math.cos(pitch/2) * math.sin(yaw/2) - math.sin(roll/2) * math.sin(pitch/2) * math.cos(yaw/2)
-    qw = math.cos(roll/2) * math.cos(pitch/2) * math.cos(yaw/2) + math.sin(roll/2) * math.sin(pitch/2) * math.sin(yaw/2)
-    return [qx, qy, qz, qw]
+from learning_tf2_py.helper import euler_to_quaternion
 
 class StaticTransformPublisher(Node) :
     """
