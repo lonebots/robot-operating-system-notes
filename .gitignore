@@ -7,11 +7,9 @@
 
 # python package
 */*/*/*/*/__pycache__
+*/*/*/*/__pycache__
 
 # src cpp package 
 */*/*/*/*/build/
 */*/*/*/*/install/
 */*/*/*/*/log/
-
-# python cache 
-*/*/*/*/__pycache__/
