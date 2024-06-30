@@ -21,7 +21,7 @@ class FramePublisher(Node) :
         
         # prevent unused variable warning
         self.subscription
-        self.get_logger().info('turtle_tf2_frame_publisher_initialized.')
+        self.get_logger().info(f'turtle tf2 publisher initialized for {self.turtle_name}')
         
     def handle_turtle_pose(self, msg) :
         t = TransformStamped()

@@ -28,6 +28,7 @@ setup(
         'console_scripts': [
             'static_turtle_tf2_broadcaster = learning_tf2_py.static_transform_publisher:main',
             'turtle_tf2_broadcaster = learning_tf2_py.transform_broadcaster:main',
+            'turtle_tf2_listener = learning_tf2_py.transform_listener:main',
         ],
     },
 )

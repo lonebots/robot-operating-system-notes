@@ -22,6 +22,8 @@
   <exec_depend>launch_ros</exec_depend>
   <exec_depend>turtlesim</exec_depend>
 
+  <exec_depend>math</exec_depend>
+
   <export>
     <build_type>ament_python</build_type>
   </export>
